@@ -1,0 +1,24 @@
+---
+const { active = '' } = Astro.props;
+const nav = [
+  ['About NGA','/about'],['Programs','/programs'],['Community Impact','/community-impact'],
+  ['News & Resources','/news-resources'],['Student Showcase','/student-showcase'],['Contact','/contact']
+];
+---
+<div class="utility"><div class="container">English <span>|</span> <a href="/ko/">한국어</a></div></div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Next Generation Advocates home"><img class="brand-horizontal" src="/images/brand/nga-horizontal.png" alt="Next Generation Advocates — NGA 차세대애드보켓츠 청소년재단"/><img class="brand-circle" src="/images/brand/nga-circle.png" alt=""/><span class="mobile-brand-copy"><strong>Next Generation Advocates</strong><small>NGA 차세대애드보켓츠 청소년재단</small></span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+    <nav id="site-menu" aria-label="Primary navigation">
+      {nav.map(([label,href]) => <a class={active === href ? 'active' : ''} href={href}>{label}</a>)}
+    </nav>
+  </div>
+</header>
+<script>
+  const button=document.querySelector('.menu-button'); const menu=document.querySelector('#site-menu');
+  button?.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')==='true';button.setAttribute('aria-expanded',String(!open));menu?.classList.toggle('open',!open)});
+</script>
+<style>
+.utility{padding:7px 0;text-align:right;color:#fff;background:var(--navy);font-size:.78rem}.utility span{margin:0 8px}.site-header{position:relative;z-index:20;background:#fff;border-bottom:1px solid var(--line)}.header-inner{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none}.brand-horizontal{width:310px;height:76px;object-fit:contain;object-position:left center}.brand-circle,.mobile-brand-copy{display:none}.brand-circle{width:58px;height:58px;object-fit:contain}.mobile-brand-copy strong,.mobile-brand-copy small{display:block}.mobile-brand-copy strong{color:var(--navy);font-size:.82rem;line-height:1.2}.mobile-brand-copy small{margin-top:3px;color:var(--muted);font-size:.58rem;line-height:1.2}.site-header nav{display:flex;align-items:center;gap:22px}.site-header nav a{padding:31px 0 7px;text-decoration:none;font-size:.84rem;border-bottom:2px solid transparent}.site-header nav a:hover,.site-header nav a.active{color:var(--burgundy);border-color:var(--burgundy)}.menu-button{display:none;padding:10px 13px;color:var(--navy);background:#fff;border:1px solid var(--line)}@media(max-width:900px){.header-inner{min-height:78px;gap:12px}.menu-button{display:block;flex:0 0 auto}.site-header nav{display:none;position:absolute;top:100%;left:0;right:0;padding:16px 5%;background:#fff;border-bottom:1px solid var(--line);box-shadow:var(--shadow)}.site-header nav.open{display:grid}.site-header nav a{padding:12px 0}.brand-horizontal{display:none}.brand-circle,.mobile-brand-copy{display:block}}@media(max-width:430px){.brand-circle{width:48px;height:48px}.mobile-brand-copy strong{font-size:.72rem}.mobile-brand-copy small{font-size:.52rem}.menu-button{padding:9px 10px}}
+</style>

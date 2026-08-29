@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/BaseLayout.astro';
+const projects=[
+  ['Humanity Over AI','https://humanityoverai.com','humanity-over-ai-latest.png'],
+  ['Posture Pal','https://posturepal.pages.dev/','posture-pal-latest.png'],
+  ['Homemade Delights','https://homemadedelights.org','homemade-delights-latest.png'],
+  ['Hallyu Nation','https://hallyuapparel.com','hallyu-apparel-latest.png'],
+  ['Student Self-Defense Advocates','https://studentselfdefenseadvocates.org','student-self-defense-latest.png'],
+  ['Consumer Resource Center','https://crcnow.org','consumer-resource-center-latest.png']
+];
+---
+<Base title="Community Impact Projects | NGA" active="/community-impact">
+  <section class="hero"><div class="hero-copy"><h1>Community Impact Projects</h1><p>Research that moves from questions to evidence, dialogue, and action.</p></div><div class="hero-media"><img src="/images/generated/scholar-talks-hero.png" alt="A student presenting research findings"/></div></section>
+  <section class="section"><div class="container"><h2 class="section-title">Projects That Change Our Community</h2><div class="rule"></div><p class="lede">NGA Community Impact Projects transform research, ideas, and lived experience into practical initiatives that inform, educate, and serve the community.</p><div class="grid grid-3">{projects.map(([name,url,img])=><a class="site-preview" href={url} target="_blank" rel="noreferrer"><img src={`/images/projects/${img}`} alt={`${name} website homepage preview`} loading="lazy"/><strong>{name}</strong></a>)}</div><p class="center past">Past Projects →</p></div></section>
+  <style>.past{margin-top:34px;color:var(--burgundy);font-weight:700}</style>
+</Base>

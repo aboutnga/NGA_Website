@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/BaseLayout.astro';
+---
+<Base title="NGA Scholar Talks" active="/programs">
+  <section class="hero">
+    <div class="hero-copy"><h1>NGA Scholar Talks</h1><p>Student voices. Original ideas. Community impact.</p></div>
+    <div class="hero-media"><img src="/images/generated/scholar-talks-hero.png" alt="A student presenting to an audience"/></div>
+  </section>
+  <section class="section"><div class="container"><h2 class="section-title">From Research to Public Dialogue</h2><div class="rule"></div><div class="grid grid-3">{['Prepare','Present','Engage'].map(x=><div class="colored-title">{x}</div>)}</div></div></section>
+  <section class="section soft"><div class="container center"><h2 class="section-title">Explore Student Ideas and Impact</h2><p class="lede">Discover the Community Impact Projects and public work developed by NGA students.</p><div class="actions centered"><a class="btn btn-primary" href="/community-impact">Community Impact Projects</a><a class="btn btn-secondary" href="/student-showcase">Student Showcase</a></div></div></section>
+  <style>.centered{justify-content:center}</style>
+</Base>

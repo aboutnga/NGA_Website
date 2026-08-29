@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/BaseLayout.astro';
+---
+<Base title="NextGen Expo | NGA" active="/programs">
+  <section class="hero"><div class="hero-copy"><h1>NextGen Expo</h1><p>A showcase of youth-led organizations, ideas, and community engagement.</p></div><div class="hero-media"><img src="/images/generated/expo-hero.png" alt="Students presenting projects at a community expo"/></div></section>
+  <section class="section"><div class="container"><h2 class="section-title">Purpose of the Expo</h2><div class="rule"></div><p class="lede">The NextGen Expo showcased youth-led organizations and initiatives, highlighting the creativity and civic engagement of young people.</p><div class="grid grid-4">{['Youth-Led Groups','Community Organizations','Public Institutions','Sponsors & Supporters'].map(x=><div class="colored-title">{x}</div>)}</div></div></section>
+  <section class="section soft"><div class="container"><h2 class="section-title">Expo Highlights</h2><div class="rule"></div><div class="grid grid-3">{[1,2,3].map((n)=><img class={`expo-photo e${n}`} src="/images/generated/expo-hero.png" alt="Youth-led project expo"/>)}</div></div></section>
+  <style>.expo-photo{width:100%;height:240px;object-fit:cover;border:1px solid var(--line)}.e1{object-position:35% center}.e2{object-position:65% center}.e3{object-position:90% center}</style>
+</Base>
