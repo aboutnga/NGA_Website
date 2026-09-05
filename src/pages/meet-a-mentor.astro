@@ -12,9 +12,10 @@ const mentors=[
 ];
 ---
 <Base title="Meet a Mentor | NGA" active="/programs">
-  <section class="hero"><div class="hero-copy"><h1>Meet a Mentor</h1><p>Professional journeys and real-world insight.</p></div><div class="hero-media"><img src="/images/generated/meet-a-mentor-hero-blurred-v2.png" alt="Students gathered with professional mentors at a Meet a Mentor event"/></div></section>
+  <section class="hero"><div class="hero-copy"><h1>Meet a Mentor</h1><p>Professional journeys and real-world insight.</p></div><div class="hero-media"><img src="/images/generated/meet-a-mentor-hero-banner-v4.png" alt="Students gathered with professional mentors at a Meet a Mentor event"/></div></section>
   <section class="section"><div class="container"><h2 class="section-title">Our Mentors</h2><div class="rule"></div><div class="mentor-grid">{mentors.map(([name,title,img])=><article><div class="portrait-frame"><div class="portrait-crop"><img class="portrait" src={`/images/mentors/${img}`} alt={`${name}, ${title}`}/></div></div><h3>{name}</h3><p>{title}</p></article>)}</div><div class="registration-bar"><a class="registration" href="https://forms.gle/CQ1QoJxqKQUTeH3v7" target="_blank">Meet a Mentor Registration</a></div></div></section>
   <style>
+    .hero-media{min-height:0}
     .mentor-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:34px 28px;text-align:center}
     .mentor-grid article{flex:0 1 calc((100% - 84px)/4)}
     .portrait-frame,.portrait-crop{width:100%;aspect-ratio:1;border-radius:50%;overflow:hidden}
