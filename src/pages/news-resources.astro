@@ -9,6 +9,12 @@ const fallbackNews = [
   { category: 'Education', title: 'Federal education policy announcements', source: 'U.S. Department of Education', published: '2026-08-07', url: 'https://www.ed.gov/about/news/press-release' },
   { category: 'College Admissions', title: 'Resources for building a balanced college list', source: 'College Board', published: '2026-08-05', url: 'https://bigfuture.collegeboard.org/' }
 ];
+
+const featuredImages: Record<string, string> = {
+  'College Admissions': '/images/news-resources/college-admissions.jpg',
+  'Financial Aid': '/images/news-resources/financial-aid.png',
+  Scholarships: '/images/news-resources/scholarships.png'
+};
 ---
 
 <Base title="News & Resources | NGA" active="/news-resources">
@@ -29,7 +35,10 @@ const fallbackNews = [
         <div id="featured-news" class="featured-grid">
           {fallbackNews.slice(0, 3).map((item, index) =>
             <a class={`featured-card tone-${index}`} href={item.url} target="_blank" rel="noreferrer">
-              <div class="featured-top"><span>{item.category}</span></div>
+              <div class="featured-top">
+                <img class="featured-image" src={featuredImages[item.category]} alt="" loading="lazy" decoding="async" />
+                <span>{item.category}</span>
+              </div>
               <div class="featured-body">
                 <h3>{item.title}</h3>
                 <p>Read the latest update from {item.source}.</p>
@@ -84,7 +93,7 @@ const fallbackNews = [
     </div>
   </section>
 
-  <script define:vars={{ fallbackNews }}>
+  <script define:vars={{ fallbackNews, featuredImages }}>
     const featured = document.querySelector('#featured-news');
     const latestList = document.querySelector('#latest-list');
     const allNewsList = document.querySelector('#all-news-list');
@@ -111,11 +120,16 @@ const fallbackNews = [
       return normalized.includes(filter.toLowerCase());
     };
 
+    const selectFeaturedItems = (items) => ['College Admissions', 'Financial Aid', 'Scholarships'].map((category) => {
+      const candidates = [...items, ...fallbackNews].filter((item) => item.category === category);
+      return candidates.sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime())[0];
+    }).filter(Boolean);
+
     const renderFeatured = (items) => {
       if (!(featured instanceof HTMLElement)) return;
-      featured.innerHTML = items.slice(0, 3).map((item, index) => `
+      featured.innerHTML = selectFeaturedItems(items).map((item, index) => `
         <a class="featured-card tone-${index}" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
-          <div class="featured-top"><span>${escapeHtml(item.category)}</span></div>
+          <div class="featured-top"><img class="featured-image" src="${escapeHtml(featuredImages[item.category])}" alt="" loading="lazy" decoding="async"><span>${escapeHtml(item.category)}</span></div>
           <div class="featured-body"><h3>${escapeHtml(item.title)}</h3><p>Read the latest update from ${escapeHtml(item.source)}.</p><small>${escapeHtml(item.source)} <time>${escapeHtml(formatDate(item.published))}</time></small></div>
         </a>`).join('');
     };
@@ -172,9 +186,11 @@ const fallbackNews = [
     .featured-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
     .featured-card{overflow:hidden;color:var(--ink);background:#fff;border:1px solid var(--line);box-shadow:0 8px 25px rgba(16,42,76,.05);text-decoration:none;transition:transform .2s ease,box-shadow .2s ease}
     .featured-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
-    .featured-top{min-height:120px;display:flex;align-items:flex-end;padding:18px;color:#fff;background:#195495}
+    .featured-top{position:relative;min-height:150px;display:flex;overflow:hidden;align-items:flex-end;padding:18px;color:#fff;background:#195495}
     .tone-1 .featured-top{background:#587a9b}.tone-2 .featured-top{background:#287f82}
-    .featured-top span{padding:7px 11px;border-radius:18px;background:#102f52;font-size:.76rem;font-weight:700}
+    .featured-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+    .featured-top::after{position:absolute;inset:35% 0 0;content:"";background:linear-gradient(180deg,transparent,rgba(8,31,57,.5))}
+    .featured-top span{position:relative;z-index:1;padding:7px 11px;border-radius:18px;background:rgba(16,47,82,.92);font-size:.76rem;font-weight:700}
     .featured-body{padding:20px}
     .featured-body h3{margin:0 0 10px;font-family:var(--serif);font-size:1.18rem;line-height:1.3}
     .featured-body p{margin:0 0 22px;color:var(--muted)}
