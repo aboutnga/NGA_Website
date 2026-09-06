@@ -1,10 +1,13 @@
 ---
 import Base from '../layouts/BaseLayout.astro';
 
-const trustedSources = [
-  ['College Admissions', 'College Board Newsroom', 'Current admissions, SAT, AP, and scholarship announcements.', 'https://newsroom.collegeboard.org/'],
-  ['Financial Aid', 'Federal Student Aid', 'Official FAFSA news, deadlines, and financial-aid guidance.', 'https://financialaidtoolkit.ed.gov/tk/learn/fafsa/updates.jsp'],
-  ['Career Exploration', 'Occupational Outlook Handbook', 'Current career requirements, pay, and employment outlook.', 'https://www.bls.gov/ooh/home.htm']
+const fallbackNews = [
+  { category: 'College Admissions', title: 'Important changes for the upcoming admissions cycle', source: 'College Board', published: '2026-08-15', url: 'https://newsroom.collegeboard.org/' },
+  { category: 'Financial Aid', title: 'FAFSA application guidance and current deadlines', source: 'Federal Student Aid', published: '2026-08-13', url: 'https://studentaid.gov/' },
+  { category: 'Scholarships', title: 'New scholarship opportunities for students', source: 'U.S. Department of Education', published: '2026-08-11', url: 'https://www.ed.gov/' },
+  { category: 'Careers', title: 'Career outlook and workforce updates', source: 'Bureau of Labor Statistics', published: '2026-08-09', url: 'https://www.bls.gov/ooh/home.htm' },
+  { category: 'Education', title: 'Federal education policy announcements', source: 'U.S. Department of Education', published: '2026-08-07', url: 'https://www.ed.gov/about/news/press-release' },
+  { category: 'College Admissions', title: 'Resources for building a balanced college list', source: 'College Board', published: '2026-08-05', url: 'https://bigfuture.collegeboard.org/' }
 ];
 ---
 
@@ -12,86 +15,137 @@ const trustedSources = [
   <section class="page-banner">
     <div class="container">
       <h1>News & Resources</h1>
-      <p>Live updates on education, college admissions, financial aid, scholarships, and careers.</p>
+      <p>Trusted updates on education, college admissions, financial aid, scholarships, and careers.</p>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section latest-section">
     <div class="container">
-      <div class="feed-title-row">
-        <div>
-          <h2 class="section-title">Educational News</h2>
-          <p id="feed-status" class="feed-status" aria-live="polite">Loading the latest trusted updates…</p>
+      <h2 class="section-title">Latest Updates</h2>
+      <div class="rule"></div>
+      <p id="feed-status" class="feed-status" aria-live="polite">Automatically refreshed from trusted education sources.</p>
+
+      <div class="news-layout">
+        <div id="featured-news" class="featured-grid">
+          {fallbackNews.slice(0, 3).map((item, index) =>
+            <a class={`featured-card tone-${index}`} href={item.url} target="_blank" rel="noreferrer">
+              <div class="featured-top"><span>{item.category}</span></div>
+              <div class="featured-body">
+                <h3>{item.title}</h3>
+                <p>Read the latest update from {item.source}.</p>
+                <small>{item.source} <time datetime={item.published}>{item.published}</time></small>
+              </div>
+            </a>
+          )}
         </div>
-        <a class="channel-link" href="/student-showcase">See NGA’s social feeds →</a>
+
+        <aside class="latest-resources" aria-labelledby="latest-resources-title">
+          <h2 id="latest-resources-title">Latest Resources</h2>
+          <div id="latest-list">
+            {fallbackNews.slice(0, 5).map((item, index) =>
+              <a class="update" href={item.url} target="_blank" rel="noreferrer">
+                <b>{index + 1}</b>
+                <span><strong>{item.title}</strong><small>{item.source}</small></span>
+              </a>
+            )}
+          </div>
+        </aside>
       </div>
-      <div class="rule left"></div>
+    </div>
+  </section>
 
-      <div id="news-feed" class="news-grid" aria-live="polite"></div>
+  <section class="section soft all-news-section">
+    <div class="container">
+      <h2>All News &amp; Resources</h2>
+      <div class="all-news-rule"></div>
 
-      <div id="source-fallback" class="source-grid">
-        {trustedSources.map(([category, name, description, url]) =>
-          <a class="source-card" href={url} target="_blank" rel="noreferrer">
-            <span>{category}</span>
-            <h3>{name}</h3>
-            <p>{description}</p>
-            <strong>Visit official source →</strong>
-          </a>
+      <div id="news-filters" class="categories" aria-label="Filter news and resources by category">
+        {['All', 'Education', 'Admissions', 'Financial Aid', 'Scholarships', 'Careers'].map((label, index) =>
+          <button type="button" class:list={{ active: index === 0 }} data-filter={label} aria-pressed={index === 0 ? 'true' : 'false'}>{label}</button>
         )}
       </div>
-    </div>
-  </section>
 
-  <section class="section soft">
-    <div class="container">
-      <h2>Trusted Resource Library</h2>
-      <p class="resource-intro">These official sources remain available even when a live feed is temporarily unavailable.</p>
-      <div class="resource-links">
-        <a href="https://www.ed.gov/about/news/press-release" target="_blank" rel="noreferrer">U.S. Department of Education</a>
-        <a href="https://studentaid.gov/" target="_blank" rel="noreferrer">Federal Student Aid</a>
-        <a href="https://newsroom.collegeboard.org/" target="_blank" rel="noreferrer">College Board Newsroom</a>
-        <a href="https://www.bls.gov/ooh/home.htm" target="_blank" rel="noreferrer">Occupational Outlook Handbook</a>
+      <label class="search-label" for="news-search">Search articles</label>
+      <input id="news-search" class="news-search" type="search" placeholder="Search articles" autocomplete="off" />
+
+      <div class="resource-table" role="table" aria-label="All news and resources">
+        <div class="resource-row resource-head" role="row">
+          <b role="columnheader">Category</b><b role="columnheader">Headline</b><b role="columnheader">Source</b><b role="columnheader">Date</b>
+        </div>
+        <div id="all-news-list">
+          {fallbackNews.map((item) =>
+            <a class="resource-row" role="row" href={item.url} target="_blank" rel="noreferrer">
+              <span class="category-tag" data-category={item.category} role="cell">{item.category}</span><strong role="cell">{item.title}</strong><span role="cell">{item.source}</span><time role="cell" datetime={item.published}>{item.published}</time>
+            </a>
+          )}
+        </div>
       </div>
+      <p id="empty-news" class="empty-news" hidden>No articles match this search.</p>
     </div>
   </section>
 
-  <script>
-    const feed = document.querySelector('#news-feed');
+  <script define:vars={{ fallbackNews }}>
+    const featured = document.querySelector('#featured-news');
+    const latestList = document.querySelector('#latest-list');
+    const allNewsList = document.querySelector('#all-news-list');
     const status = document.querySelector('#feed-status');
-    const fallback = document.querySelector('#source-fallback');
+    const search = document.querySelector('#news-search');
+    const filterButtons = [...document.querySelectorAll('[data-filter]')];
+    const emptyState = document.querySelector('#empty-news');
+    let allItems = fallbackNews;
+    let activeFilter = 'All';
 
+    const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]);
     const formatDate = (value) => {
-      if (!value) return 'Recent update';
-      return new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).format(new Date(value));
+      if (!value) return 'Recent';
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value;
+      return new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).format(date);
+    };
+    const matchesFilter = (category, filter) => {
+      if (filter === 'All') return true;
+      const normalized = category.toLowerCase();
+      if (filter === 'Admissions') return normalized.includes('admission');
+      if (filter === 'Education') return normalized.includes('education');
+      if (filter === 'Careers') return normalized.includes('career');
+      return normalized.includes(filter.toLowerCase());
     };
 
-    const renderNews = (items) => {
-      if (!(feed instanceof HTMLElement)) return;
+    const renderFeatured = (items) => {
+      if (!(featured instanceof HTMLElement)) return;
+      featured.innerHTML = items.slice(0, 3).map((item, index) => `
+        <a class="featured-card tone-${index}" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
+          <div class="featured-top"><span>${escapeHtml(item.category)}</span></div>
+          <div class="featured-body"><h3>${escapeHtml(item.title)}</h3><p>Read the latest update from ${escapeHtml(item.source)}.</p><small>${escapeHtml(item.source)} <time>${escapeHtml(formatDate(item.published))}</time></small></div>
+        </a>`).join('');
+    };
 
-      items.forEach((item) => {
-        const link = document.createElement('a');
-        link.className = 'news-card';
-        link.href = item.url;
-        link.target = '_blank';
-        link.rel = 'noreferrer';
+    const renderLatest = (items) => {
+      if (!(latestList instanceof HTMLElement)) return;
+      latestList.innerHTML = items.slice(0, 5).map((item, index) => `
+        <a class="update" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer"><b>${index + 1}</b><span><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.source)}</small></span></a>`).join('');
+    };
 
-        const category = document.createElement('span');
-        category.className = 'news-category';
-        category.textContent = item.category;
+    const renderAll = () => {
+      if (!(allNewsList instanceof HTMLElement)) return;
+      const query = search instanceof HTMLInputElement ? search.value.trim().toLowerCase() : '';
+      const visible = allItems.filter((item) => matchesFilter(item.category, activeFilter) && `${item.title} ${item.source} ${item.category}`.toLowerCase().includes(query));
+      allNewsList.innerHTML = visible.map((item) => `
+        <a class="resource-row" role="row" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer"><span class="category-tag" data-category="${escapeHtml(item.category)}" role="cell">${escapeHtml(item.category)}</span><strong role="cell">${escapeHtml(item.title)}</strong><span role="cell">${escapeHtml(item.source)}</span><time role="cell">${escapeHtml(formatDate(item.published))}</time></a>`).join('');
+      if (emptyState instanceof HTMLElement) emptyState.hidden = visible.length !== 0;
+    };
 
-        const title = document.createElement('h3');
-        title.textContent = item.title;
-
-        const details = document.createElement('p');
-        details.textContent = `${item.source} · ${formatDate(item.published)}`;
-
-        const action = document.createElement('strong');
-        action.textContent = 'Read update →';
-
-        link.append(category, title, details, action);
-        feed.append(link);
+    filterButtons.forEach((button) => button.addEventListener('click', () => {
+      if (!(button instanceof HTMLButtonElement)) return;
+      activeFilter = button.dataset.filter || 'All';
+      filterButtons.forEach((candidate) => {
+        const selected = candidate === button;
+        candidate.classList.toggle('active', selected);
+        candidate.setAttribute('aria-pressed', selected ? 'true' : 'false');
       });
-    };
+      renderAll();
+    }));
+    search?.addEventListener('input', renderAll);
 
     fetch('/api/education-news')
       .then((response) => {
@@ -100,32 +154,60 @@ const trustedSources = [
       })
       .then((data) => {
         if (!Array.isArray(data.items) || !data.items.length) throw new Error('No updates');
-        renderNews(data.items);
-        if (fallback instanceof HTMLElement) fallback.hidden = true;
+        allItems = data.items;
+        renderFeatured(allItems);
+        renderLatest(allItems);
+        renderAll();
         if (status instanceof HTMLElement) status.textContent = 'Automatically refreshed from trusted education sources.';
       })
       .catch(() => {
-        if (status instanceof HTMLElement) status.textContent = 'Official resource links are shown below. Live updates will return automatically.';
+        if (status instanceof HTMLElement) status.textContent = 'Showing the saved resource collection. Live updates will return automatically.';
       });
   </script>
 
   <style>
-    .feed-title-row{display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
-    .feed-title-row .section-title{text-align:left}
-    .feed-status{margin:6px 0 0;color:var(--muted)}
-    .rule.left{margin:18px 0 34px}
-    .channel-link{color:var(--burgundy);font-weight:700;text-decoration:none;white-space:nowrap}
-    .news-grid,.source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
-    .news-card,.source-card{display:flex;min-height:245px;flex-direction:column;padding:24px;color:var(--ink);background:#fff;border:1px solid var(--line);box-shadow:0 8px 25px rgba(16,42,76,.05);text-decoration:none;transition:transform .2s ease,box-shadow .2s ease}
-    .news-card:hover,.source-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
-    .news-card h3,.source-card h3{margin:12px 0 10px;font-family:var(--serif);font-size:1.3rem;line-height:1.3}
-    .news-card p,.source-card p{margin:0 0 20px;color:var(--muted)}
-    .news-card strong,.source-card strong{margin-top:auto;color:var(--burgundy)}
-    .news-category,.source-card>span{color:var(--burgundy);font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
-    .resource-intro{margin-top:0;color:var(--muted)}
-    .resource-links{display:flex;flex-wrap:wrap;gap:12px}
-    .resource-links a{padding:11px 15px;background:#fff;border:1px solid var(--line);text-decoration:none;font-weight:700}
-    @media(max-width:900px){.news-grid,.source-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(max-width:620px){.feed-title-row{align-items:flex-start;flex-direction:column}.news-grid,.source-grid{grid-template-columns:1fr}.channel-link{white-space:normal}}
+    .latest-section{padding-bottom:8px}
+    .news-layout{display:grid;grid-template-columns:minmax(0,3fr) minmax(240px,1fr);gap:18px;align-items:stretch}
+    .feed-status{margin:-18px 0 24px;color:var(--muted)}
+    .featured-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .featured-card{overflow:hidden;color:var(--ink);background:#fff;border:1px solid var(--line);box-shadow:0 8px 25px rgba(16,42,76,.05);text-decoration:none;transition:transform .2s ease,box-shadow .2s ease}
+    .featured-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+    .featured-top{min-height:120px;display:flex;align-items:flex-end;padding:18px;color:#fff;background:#195495}
+    .tone-1 .featured-top{background:#587a9b}.tone-2 .featured-top{background:#287f82}
+    .featured-top span{padding:7px 11px;border-radius:18px;background:#102f52;font-size:.76rem;font-weight:700}
+    .featured-body{padding:20px}
+    .featured-body h3{margin:0 0 10px;font-family:var(--serif);font-size:1.18rem;line-height:1.3}
+    .featured-body p{margin:0 0 22px;color:var(--muted)}
+    .featured-body small{display:flex;justify-content:space-between;gap:12px;color:var(--muted)}
+    .latest-resources{min-height:0;display:flex;flex-direction:column;padding:8px;background:#fff;border:1px solid var(--line);box-shadow:0 8px 25px rgba(16,42,76,.05)}
+    .latest-resources h2{margin:0 0 3px;font-family:var(--serif);font-size:.9rem;line-height:1.15}
+    #latest-list{display:flex;min-height:0;flex:1;flex-direction:column}
+    .update{display:flex;min-height:0;flex:1;align-items:center;gap:6px;padding:2px 0;color:var(--ink);border-bottom:1px solid var(--line);text-decoration:none}
+    .update b{width:20px;height:20px;display:grid;flex:0 0 20px;place-items:center;border-radius:2px;color:#fff;background:var(--burgundy);font-size:.68rem}
+    .update span,.update small{display:block}.update strong{font-size:.68rem;line-height:1.16}.update small{margin-top:1px;color:var(--muted);font-size:.6rem;line-height:1.12}
+    .all-news-section{padding-top:12px}
+    .all-news-section h2{margin:0;font-family:var(--serif);font-size:1.8rem}
+    .all-news-rule{height:2px;margin:12px 0 18px;background:var(--navy)}
+    .categories{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+    .categories button{padding:7px 12px;border:1px solid var(--line);border-radius:18px;color:var(--ink);background:#fff;cursor:pointer;font:inherit}
+    .categories button.active{color:#fff;background:var(--navy);border-color:var(--navy)}
+    .search-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+    .news-search{width:100%;margin-bottom:16px;padding:10px 14px;border:1px solid var(--line);border-radius:7px;font:inherit}
+    .resource-table{border-top:1px solid var(--line)}
+    .resource-row{display:grid;grid-template-columns:1.1fr 3.2fr 1.7fr 1fr;gap:16px;padding:15px 10px;color:var(--ink);border-bottom:1px solid var(--line);text-decoration:none;font-size:.92rem}
+    .resource-row strong{font-weight:600}.resource-row time{text-align:right;color:var(--muted)}
+    .resource-head{color:var(--muted);background:#fff;font-size:.82rem}
+    .empty-news{padding:28px;text-align:center;color:var(--muted)}
+    @media(max-width:980px){.news-layout{grid-template-columns:1fr}.latest-resources{height:auto;padding:18px}.latest-resources h2{font-size:1.35rem}.update{padding:10px 0}.update strong{font-size:.95rem}.update small{font-size:.82rem}.featured-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:700px){.featured-grid{grid-template-columns:1fr}.resource-head{display:none}.resource-row{grid-template-columns:1fr;gap:5px;padding:18px 12px}.resource-row time{text-align:left}.feed-status{margin-top:-10px}.all-news-section h2{font-size:1.6rem}}
+  </style>
+
+  <style is:inline>
+    .category-tag{width:max-content;max-width:100%;align-self:center;padding:5px 9px;border-radius:14px;color:#fff;background:var(--navy);font-size:.875rem;font-weight:700;line-height:1.2}
+    .category-tag[data-category="College Admissions"]{background:#195495}
+    .category-tag[data-category="Financial Aid"]{background:#587a9b}
+    .category-tag[data-category="Scholarships"]{background:#287f82}
+    .category-tag[data-category="Careers"]{background:var(--burgundy)}
+    .category-tag[data-category="Education"]{background:#6f5aa8}
   </style>
 </Base>
