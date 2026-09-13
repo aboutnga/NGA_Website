@@ -25,7 +25,7 @@ const registrationUrl = 'https://forms.gle/cK2QJrfFRGDjBqhKA';
         <dl>
           <div><dt>Date · 날짜</dt><dd>Saturday, September 19, 2026</dd></div>
           <div><dt>Time · 시간</dt><dd>10:00 AM–2:00 PM</dd></div>
-          <div><dt>Mentor · 멘토</dt><dd>Jason Phillips, Los Angeles Fire Department</dd></div>
+          <div><dt>Mentor · 멘토</dt><dd>Jason Phillips,<br class="event-popup__mobile-break"/> <span class="event-popup__agency">Los Angeles Fire Department</span></dd></div>
           <div class="event-popup__parking">
             <dt>Free All-Day Parking · 무료 종일 주차</dt>
             <dd>
@@ -47,25 +47,25 @@ const registrationUrl = 'https://forms.gle/cK2QJrfFRGDjBqhKA';
 
 <script>
   const popup = document.querySelector<HTMLDialogElement>('#meet-a-mentor-popup');
-  const dismissKey = 'nga-meet-a-mentor-10-dismissed';
 
   if (popup) {
     const preview = new URLSearchParams(window.location.search).get('event-popup') === 'preview';
     const expires = new Date(popup.dataset.expires ?? '').getTime();
     const registrationActive = Number.isFinite(expires) && Date.now() < expires;
-    const dismissed = sessionStorage.getItem(dismissKey) === 'true';
 
-    if (preview || (registrationActive && !dismissed)) popup.showModal();
+    if (preview || registrationActive) popup.showModal();
 
     const closePopup = () => {
       popup.close();
-      if (!preview) sessionStorage.setItem(dismissKey, 'true');
     };
 
     popup.querySelector('.event-popup__close')?.addEventListener('click', closePopup);
     popup.querySelector('.event-popup__later')?.addEventListener('click', closePopup);
     popup.addEventListener('click', (event) => {
       if (event.target === popup) closePopup();
+    });
+    window.addEventListener('pageshow', (event) => {
+      if (event.persisted && registrationActive && !popup.open) popup.showModal();
     });
   }
 </script>
@@ -84,6 +84,8 @@ const registrationUrl = 'https://forms.gle/cK2QJrfFRGDjBqhKA';
   .event-popup__details dl div{padding-bottom:7px;border-bottom:1px solid var(--line)}
   .event-popup__details dt{color:var(--navy);font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
   .event-popup__details dd{margin:2px 0 0;font-size:.97rem;line-height:1.45}
+  .event-popup__mobile-break{display:none}
+  .event-popup__agency{white-space:nowrap}
   .event-popup__details .event-popup__parking{margin-top:2px;padding:10px 12px;border:2px solid #f2bf42;border-radius:5px;background:#fff4c7}
   .event-popup__details .event-popup__parking dt{color:#8d283d;font-size:.9rem;letter-spacing:.025em}
   .event-popup__details .event-popup__parking dd{color:var(--navy)}
@@ -100,6 +102,7 @@ const registrationUrl = 'https://forms.gle/cK2QJrfFRGDjBqhKA';
     .event-popup__flyer img{max-height:none}
     .event-popup__details{padding:30px 24px 26px}
     .event-popup__details h2{font-size:2rem}
+    .event-popup__mobile-break{display:block}
     .event-popup__close{position:fixed;top:max(12px,env(safe-area-inset-top));right:calc(3vw + 12px)}
   }
 </style>
