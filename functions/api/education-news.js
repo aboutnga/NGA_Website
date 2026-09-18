@@ -132,35 +132,26 @@ function parseEducationDepartment(html) {
 }
 
 const fetchText = async (url, accept) => {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 4500);
-
-  try {
-    const response = await fetch(url, {
-      headers: { Accept: accept },
-      signal: controller.signal
-    });
-    if (!response.ok) throw new Error(`Source returned ${response.status}`);
-    return await response.text();
-  } finally {
-    clearTimeout(timeout);
-  }
+  const response = await fetch(url, { headers: { Accept: accept } });
+  if (!response.ok) throw new Error(`Source returned ${response.status}`);
+  return response.text();
 };
 
 const loadFeed = async ({ category, query, officialUrl, officialParser }) => {
   const googleUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
-  const [googleResult, officialResult] = await Promise.allSettled([
-    fetchText(googleUrl, 'application/rss+xml, application/xml;q=0.9, text/xml;q=0.8'),
-    fetchText(officialUrl, 'text/html, application/xhtml+xml;q=0.9')
-  ]);
+  const requireItems = (items) => {
+    if (!items.length) throw new Error('Source returned no usable articles');
+    return items;
+  };
 
-  const googleItems = googleResult.status === 'fulfilled' ? parseFeed(googleResult.value, category) : [];
-  const officialItems = officialResult.status === 'fulfilled' ? officialParser(officialResult.value) : [];
-
-  return [...googleItems, ...officialItems]
-    .filter((item, index, all) => all.findIndex((candidate) => candidate.title.toLowerCase() === item.title.toLowerCase()) === index)
-    .sort((a, b) => Date.parse(b.published || '') - Date.parse(a.published || ''))
-    .slice(0, 6);
+  try {
+    return await Promise.any([
+      fetchText(officialUrl, 'text/html, application/xhtml+xml;q=0.9').then(officialParser).then(requireItems),
+      fetchText(googleUrl, 'application/rss+xml, application/xml;q=0.9, text/xml;q=0.8').then((xml) => parseFeed(xml, category)).then(requireItems)
+    ]);
+  } catch {
+    return [];
+  }
 };
 
 export async function onRequestGet() {
@@ -174,7 +165,7 @@ export async function onRequestGet() {
   if (!items.length) {
     return Response.json(
       { items: [], error: 'Live updates are temporarily unavailable.' },
-      { status: 503, headers: { 'Cache-Control': 'no-store' } }
+      { status: 503, headers: { 'Cache-Control': 'no-store', 'X-NGA-Feed-Version': 'resilient-v2' } }
     );
   }
 
@@ -183,7 +174,8 @@ export async function onRequestGet() {
     {
       headers: {
         'Cache-Control': 'public, max-age=900, s-maxage=1800',
-        'Access-Control-Allow-Origin': '*'
+        'Access-Control-Allow-Origin': '*',
+        'X-NGA-Feed-Version': 'resilient-v2'
       }
     }
   );
