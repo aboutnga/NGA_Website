@@ -161,13 +161,21 @@ const featuredImages: Record<string, string> = {
     }));
     search?.addEventListener('input', renderAll);
 
-    fetch('/api/education-news')
+    const loadNews = (url) => fetch(url)
       .then((response) => {
         if (!response.ok) throw new Error('Feed unavailable');
         return response.json();
       })
       .then((data) => {
         if (!Array.isArray(data.items) || !data.items.length) throw new Error('No updates');
+        return data;
+      });
+
+    Promise.any([
+      loadNews('/data/education-news.json'),
+      loadNews('/api/education-news')
+    ])
+      .then((data) => {
         allItems = data.items;
         renderFeatured(allItems);
         renderLatest(allItems);
