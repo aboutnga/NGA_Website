@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/BaseLayout.astro';
+import koreanAmericanMedia from '../data/korean-american-media.json';
 
 const fallbackNews = [
   { category: 'College Admissions', title: 'Important changes for the upcoming admissions cycle', source: 'College Board', published: '2026-08-15', url: 'https://newsroom.collegeboard.org/' },
@@ -15,6 +16,9 @@ const featuredImages: Record<string, string> = {
   'Financial Aid': '/images/news-resources/financial-aid.png',
   Scholarships: '/images/news-resources/scholarships.png'
 };
+
+const selectedKoreanMedia = koreanAmericanMedia.items;
+const initialNews = [...selectedKoreanMedia, ...fallbackNews].sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime());
 ---
 
 <Base title="News & Resources | NGA" active="/news-resources">
@@ -48,14 +52,22 @@ const featuredImages: Record<string, string> = {
           )}
         </div>
 
-        <aside class="latest-resources" aria-labelledby="latest-resources-title">
-          <h2 id="latest-resources-title">Latest Resources</h2>
-          <div id="latest-list">
-            {fallbackNews.slice(0, 5).map((item, index) =>
-              <a class="update" href={item.url} target="_blank" rel="noreferrer">
+        <aside class="korean-media" aria-labelledby="korean-media-title">
+          <div class="korean-media__heading">
+            <h2 id="korean-media-title">Korean American Media</h2>
+            <p>한인 언론 뉴스 · Selected by NGA</p>
+          </div>
+          <div class="korean-media__list">
+            {selectedKoreanMedia.length ? selectedKoreanMedia.map((item, index) =>
+              <a class="media-story" href={item.url} target="_blank" rel="noreferrer">
                 <b>{index + 1}</b>
-                <span><strong>{item.title}</strong><small>{item.source}</small></span>
+                <span>
+                  <strong>{item.title}</strong>
+                  <small>{item.source}{item.published ? ` · ${item.published}` : ''}</small>
+                </span>
               </a>
+            ) : (
+              <p class="korean-media__empty">Your selected Korean American media stories will appear here.</p>
             )}
           </div>
         </aside>
@@ -69,7 +81,7 @@ const featuredImages: Record<string, string> = {
       <div class="all-news-rule"></div>
 
       <div id="news-filters" class="categories" aria-label="Filter news and resources by category">
-        {['All', 'Education', 'Admissions', 'Financial Aid', 'Scholarships', 'Careers'].map((label, index) =>
+        {['All', 'Korean Media', 'Education', 'Admissions', 'Financial Aid', 'Scholarships', 'Careers'].map((label, index) =>
           <button type="button" class:list={{ active: index === 0 }} data-filter={label} aria-pressed={index === 0 ? 'true' : 'false'}>{label}</button>
         )}
       </div>
@@ -82,7 +94,7 @@ const featuredImages: Record<string, string> = {
           <b role="columnheader">Category</b><b role="columnheader">Headline</b><b role="columnheader">Source</b><b role="columnheader">Date</b>
         </div>
         <div id="all-news-list">
-          {fallbackNews.map((item) =>
+          {initialNews.map((item) =>
             <a class="resource-row" role="row" href={item.url} target="_blank" rel="noreferrer">
               <span class="category-tag" data-category={item.category} role="cell">{item.category}</span><strong role="cell">{item.title}</strong><span role="cell">{item.source}</span><time role="cell" datetime={item.published}>{item.published}</time>
             </a>
@@ -93,15 +105,15 @@ const featuredImages: Record<string, string> = {
     </div>
   </section>
 
-  <script define:vars={{ fallbackNews, featuredImages }}>
+  <script define:vars={{ fallbackNews, featuredImages, selectedKoreanMedia }}>
     const featured = document.querySelector('#featured-news');
-    const latestList = document.querySelector('#latest-list');
     const allNewsList = document.querySelector('#all-news-list');
     const status = document.querySelector('#feed-status');
     const search = document.querySelector('#news-search');
     const filterButtons = [...document.querySelectorAll('[data-filter]')];
     const emptyState = document.querySelector('#empty-news');
-    let allItems = fallbackNews;
+    const sortByNewest = (items) => [...items].sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime());
+    let allItems = sortByNewest([...selectedKoreanMedia, ...fallbackNews]);
     let activeFilter = 'All';
 
     const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]);
@@ -117,6 +129,7 @@ const featuredImages: Record<string, string> = {
       if (filter === 'Admissions') return normalized.includes('admission');
       if (filter === 'Education') return normalized.includes('education');
       if (filter === 'Careers') return normalized.includes('career');
+      if (filter === 'Korean Media') return normalized.includes('korean');
       return normalized.includes(filter.toLowerCase());
     };
 
@@ -132,12 +145,6 @@ const featuredImages: Record<string, string> = {
           <div class="featured-top"><img class="featured-image" src="${escapeHtml(featuredImages[item.category])}" alt="" loading="lazy" decoding="async"><span>${escapeHtml(item.category)}</span></div>
           <div class="featured-body"><h3>${escapeHtml(item.title)}</h3><p>Read the latest update from ${escapeHtml(item.source)}.</p><small>${escapeHtml(item.source)} <time>${escapeHtml(formatDate(item.published))}</time></small></div>
         </a>`).join('');
-    };
-
-    const renderLatest = (items) => {
-      if (!(latestList instanceof HTMLElement)) return;
-      latestList.innerHTML = items.slice(0, 5).map((item, index) => `
-        <a class="update" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer"><b>${index + 1}</b><span><strong>${escapeHtml(item.title)}</strong><small>${escapeHtml(item.source)}</small></span></a>`).join('');
     };
 
     const renderAll = () => {
@@ -176,9 +183,8 @@ const featuredImages: Record<string, string> = {
       loadNews('/api/education-news')
     ])
       .then((data) => {
-        allItems = data.items;
+        allItems = sortByNewest([...selectedKoreanMedia, ...data.items]);
         renderFeatured(allItems);
-        renderLatest(allItems);
         renderAll();
         if (status instanceof HTMLElement) status.textContent = 'Automatically refreshed from trusted education sources.';
       })
@@ -203,12 +209,15 @@ const featuredImages: Record<string, string> = {
     .featured-body h3{margin:0 0 10px;font-family:var(--serif);font-size:1.18rem;line-height:1.3}
     .featured-body p{margin:0 0 22px;color:var(--muted)}
     .featured-body small{display:flex;justify-content:space-between;gap:12px;color:var(--muted)}
-    .latest-resources{min-height:0;display:flex;flex-direction:column;padding:8px;background:#fff;border:1px solid var(--line);box-shadow:0 8px 25px rgba(16,42,76,.05)}
-    .latest-resources h2{margin:0 0 3px;font-family:var(--serif);font-size:.9rem;line-height:1.15}
-    #latest-list{display:flex;min-height:0;flex:1;flex-direction:column}
-    .update{display:flex;min-height:0;flex:1;align-items:center;gap:6px;padding:2px 0;color:var(--ink);border-bottom:1px solid var(--line);text-decoration:none}
-    .update b{width:20px;height:20px;display:grid;flex:0 0 20px;place-items:center;border-radius:2px;color:#fff;background:var(--burgundy);font-size:.68rem}
-    .update span,.update small{display:block}.update strong{font-size:.68rem;line-height:1.16}.update small{margin-top:1px;color:var(--muted);font-size:.6rem;line-height:1.12}
+    .korean-media{min-height:0;display:flex;flex-direction:column;padding:14px;background:#fff;border:1px solid var(--line);box-shadow:0 8px 25px rgba(16,42,76,.05)}
+    .korean-media__heading{padding-bottom:10px;border-bottom:2px solid var(--burgundy)}
+    .korean-media h2{margin:0;font-family:var(--serif);font-size:1.05rem;line-height:1.2}
+    .korean-media__heading p{margin:4px 0 0;color:var(--burgundy);font-size:.7rem;font-weight:700}
+    .korean-media__list{display:flex;min-height:0;flex:1;flex-direction:column}
+    .media-story{display:flex;min-height:0;flex:1;align-items:center;gap:8px;padding:8px 0;color:var(--ink);border-bottom:1px solid var(--line);text-decoration:none}
+    .media-story b{width:22px;height:22px;display:grid;flex:0 0 22px;place-items:center;border-radius:2px;color:#fff;background:var(--burgundy);font-size:.72rem}
+    .media-story span,.media-story small{display:block}.media-story strong{font-size:.72rem;line-height:1.2}.media-story small{margin-top:3px;color:var(--muted);font-size:.62rem;line-height:1.15}
+    .korean-media__empty{align-self:center;margin:auto;padding:26px 8px;text-align:center;color:var(--muted);font-size:.82rem;line-height:1.45}
     .all-news-section{padding-top:12px}
     .all-news-section h2{margin:0;font-family:var(--serif);font-size:1.8rem}
     .all-news-rule{height:2px;margin:12px 0 18px;background:var(--navy)}
@@ -222,7 +231,7 @@ const featuredImages: Record<string, string> = {
     .resource-row strong{font-weight:600}.resource-row time{text-align:right;color:var(--muted)}
     .resource-head{color:var(--muted);background:#fff;font-size:.82rem}
     .empty-news{padding:28px;text-align:center;color:var(--muted)}
-    @media(max-width:980px){.news-layout{grid-template-columns:1fr}.latest-resources{height:auto;padding:18px}.latest-resources h2{font-size:1.35rem}.update{padding:10px 0}.update strong{font-size:.95rem}.update small{font-size:.82rem}.featured-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:980px){.news-layout{grid-template-columns:1fr}.korean-media{height:auto;padding:18px}.korean-media h2{font-size:1.35rem}.media-story{padding:12px 0}.media-story strong{font-size:.95rem}.media-story small{font-size:.82rem}.featured-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
     @media(max-width:700px){.featured-grid{grid-template-columns:1fr}.resource-head{display:none}.resource-row{grid-template-columns:1fr;gap:5px;padding:18px 12px}.resource-row time{text-align:left}.feed-status{margin-top:-10px}.all-news-section h2{font-size:1.6rem}}
   </style>
 
@@ -234,5 +243,6 @@ const featuredImages: Record<string, string> = {
     .category-tag[data-category="Scholarships"]{background:#8fd3c2}
     .category-tag[data-category="Careers"]{background:#ffa17f}
     .category-tag[data-category="Education"]{background:#f5e784}
+    .category-tag[data-category="Korean American Media"]{background:#f4a6b8}
   </style>
 </Base>
