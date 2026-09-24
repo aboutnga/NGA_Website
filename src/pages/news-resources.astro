@@ -55,8 +55,7 @@ const formatSelectedDate = (value: string) => new Intl.DateTimeFormat('en-US', {
 
         <aside class="korean-media" aria-labelledby="korean-media-title">
           <div class="korean-media__heading">
-            <h2 id="korean-media-title">Korean American Media</h2>
-            <p>한인 언론 뉴스 · Selected by NGA</p>
+            <h2 id="korean-media-title">미국교육 뉴스</h2>
           </div>
           <div class="korean-media__list">
             {selectedKoreanMedia.length ? selectedKoreanMedia.map((item, index) =>
@@ -213,7 +212,6 @@ const formatSelectedDate = (value: string) => new Intl.DateTimeFormat('en-US', {
     .korean-media{min-height:0;display:flex;flex-direction:column;padding:14px;background:#fff;border:1px solid var(--line);box-shadow:0 8px 25px rgba(16,42,76,.05)}
     .korean-media__heading{padding-bottom:10px;border-bottom:2px solid var(--burgundy)}
     .korean-media h2{margin:0;font-family:var(--serif);font-size:1.05rem;line-height:1.2}
-    .korean-media__heading p{margin:4px 0 0;color:var(--burgundy);font-size:.7rem;font-weight:700}
     .korean-media__list{display:flex;min-height:0;flex:1;flex-direction:column}
     .media-story{display:flex;min-height:0;flex:1;align-items:center;gap:8px;padding:8px 0;color:var(--ink);border-bottom:1px solid var(--line);text-decoration:none}
     .media-story b{width:22px;height:22px;display:grid;flex:0 0 22px;place-items:center;border-radius:2px;color:#fff;background:var(--burgundy);font-size:.72rem}
