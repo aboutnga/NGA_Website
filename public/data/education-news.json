@@ -10,7 +10,7 @@
     {
       "category": "Education & Careers",
       "title": "U.S. Department of Education Announces Earliest FAFSA Launch in Program History for the Second Consecutive Year",
-      "source": "ed.gov",
+      "source": "U.S. Department of Education (.gov)",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOU5PM0dXb2U3LWNGN0hTWk1FTmlFclp5TnpUbTZVUEg4Z0RacGZJREZvYzY1ZDE2U1BvaVJWVGgxN0RISkxsaERYOWY3bldJSnBac3c5VHE2VzFGUU5XT0dQdm5HLTM3VWJwMGxKUlRQQWlfRXA0NzQ0WlpDN1VaQzdiNk50MkxsTThiRkRNXzd3c2RmLUd0TFN4VFZwdFRMbXF2clJlQ3V2U2tfaTBheldQdnktazNNc2dfM1NYVUhaZFlZdVRHRl9BYXpoeGtubjJaVGZadHVmdw?oc=5",
       "published": "2026-09-23T15:02:44.000Z"
     },
@@ -24,16 +24,23 @@
     {
       "category": "Education & Careers",
       "title": "U.S. Department of Education Approves Workforce Pell Grant Programs in Texas",
-      "source": "ed.gov",
+      "source": "U.S. Department of Education (.gov)",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa090SVpGTUFQYnBuVWlITU5HTDZYSUVPM0lXbkhKLXlSZ1R4aFEtbXhzR2dxMUVobXNwbzJ3R2E5dGJNM0t6THNNdjJGcXZLMDdwdjdXY3Y5eE5nYmNaLU1JamRIS01LREU4b0ItMHZiVGZmLTJRVXdrRUx1eGQwV1d1LXphNHJyUVp4MFF1WEE5SldjZ3g2WURvQWZpUl9YN0l5YTM5Sy1PcEtHSGZRVWN5Y3JmUQ?oc=5",
       "published": "2026-09-22T20:13:46.000Z"
     },
     {
-      "category": "Education & Careers",
+      "category": "Financial Aid",
+      "title": "(GENERAL-26-58) Federal Perkins Loan Servicer Change – School Transition Information",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-perkins-loan-servicer-change-school-transition-information",
+      "published": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
       "title": "(GENERAL-26-57) Federal Student Aid Posts Updated Reports to FSA Data Center",
-      "source": "FSA Partner Connect (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNDFOclB0YTlKQ2dzckszR1dvWTFRSFZJVmswTjdoR1BuOVl2c1l4X1p3U0hoX3hBME9ZODJlbjEyajU3bjFFa1V1YWczbHJKZlc2TldLaGQ3NEgybWhjSVZpbkluMklncndUd2pUamZlUzU4YUY1N1JtLVJYaHIzWXQ4c1R4UlFqUHo1UW5HOHlaTjhkSFczWGpDbVNpMnE5YjdDSG5jLXpuNE96bm5SYm82Y2FoanBuSzAwVVc4dUhVM0VWUlZUc3VxU3RGeEpWVVpJWEVQVjl3aUFCTnc?oc=5",
-      "published": "2026-09-22T05:29:44.000Z"
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-student-aid-posts-updated-reports-fsa-data-center",
+      "published": "2026-09-22T12:00:00.000Z"
     },
     {
       "category": "College Admissions",
@@ -50,6 +57,20 @@
       "published": "2026-09-15T12:00:00.000Z"
     },
     {
+      "category": "Financial Aid",
+      "title": "(GRANTS-26-08) Third and Final Pell Grant Administrative Cost Allowance Payments for 2024–25 Award Year",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-11/third-and-final-pell-grant-administrative-cost-allowance-payments-2024-25-award-year",
+      "published": "2026-09-11T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(GRANTS-26-07) Second Pell Grant Administrative Cost Allowance Payments for 2025-26 Award Year",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-11/second-pell-grant-administrative-cost-allowance-payments-2025-26-award-year",
+      "published": "2026-09-11T12:00:00.000Z"
+    },
+    {
       "category": "College Admissions",
       "title": "College Board Officially Launches the First Nivel Avanzado Program (PNA®) Course in Computer Science Principles",
       "source": "College Board",
@@ -62,28 +83,7 @@
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/college-board-president-jeremy-singer-joins-national-commission-ai-and-future-american-workforce",
       "published": "2026-09-10T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "More Than 20 School Districts Unite to Put 1 Million Students on a Path to Advanced Coursework",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/more-20-school-districts-unite-put-1-million-students-path-advanced-coursework",
-      "published": "2026-09-02T12:00:00.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "Home : Occupational Outlook Handbook",
-      "source": "Bureau of Labor Statistics (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBTY3RBdmpieG8xd0Q3VVN2QmQwSlVHeFBWUTNkQWN0b3hDRjNNaFpPZmVfU2lfYWVYY01TYw?oc=5",
-      "published": "2026-08-27T07:00:00.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "Office for Civil Rights (OCR)",
-      "source": "ed.gov",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqNDhiSmxNV0VUaU9CTmJmYWRHNVJUR3QzYWZsUjc3WHlvUkhKOThVOEQxczlFYlNsbVlhT0R2OUNkWktXMXJFR2tIaFRtNGs?oc=5",
-      "published": "2024-04-23T07:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-09-24T17:15:29.116Z"
+  "updatedAt": "2026-09-24T21:33:51.491Z"
 }
