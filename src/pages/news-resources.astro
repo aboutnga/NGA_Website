@@ -19,6 +19,7 @@ const featuredImages: Record<string, string> = {
 
 const selectedKoreanMedia = koreanAmericanMedia.items;
 const initialNews = [...selectedKoreanMedia, ...fallbackNews].sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime());
+const formatSelectedDate = (value: string) => new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).format(new Date(`${value}T12:00:00`));
 ---
 
 <Base title="News & Resources | NGA" active="/news-resources">
@@ -63,7 +64,7 @@ const initialNews = [...selectedKoreanMedia, ...fallbackNews].sort((a, b) => new
                 <b>{index + 1}</b>
                 <span>
                   <strong>{item.title}</strong>
-                  <small>{item.source}{item.published ? ` · ${item.published}` : ''}</small>
+                  <small>{item.source}{item.published ? ` · ${formatSelectedDate(item.published)}` : ''}</small>
                 </span>
               </a>
             ) : (
@@ -96,7 +97,7 @@ const initialNews = [...selectedKoreanMedia, ...fallbackNews].sort((a, b) => new
         <div id="all-news-list">
           {initialNews.map((item) =>
             <a class="resource-row" role="row" href={item.url} target="_blank" rel="noreferrer">
-              <span class="category-tag" data-category={item.category} role="cell">{item.category}</span><strong role="cell">{item.title}</strong><span role="cell">{item.source}</span><time role="cell" datetime={item.published}>{item.published}</time>
+              <span class="category-tag" data-category={item.category} role="cell">{item.category}</span><strong role="cell">{item.title}</strong><span role="cell">{item.source}</span><time role="cell" datetime={item.published}>{formatSelectedDate(item.published)}</time>
             </a>
           )}
         </div>
@@ -119,7 +120,7 @@ const initialNews = [...selectedKoreanMedia, ...fallbackNews].sort((a, b) => new
     const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]);
     const formatDate = (value) => {
       if (!value) return 'Recent';
-      const date = new Date(value);
+      const date = /^\d{4}-\d{2}-\d{2}$/.test(value) ? new Date(`${value}T12:00:00`) : new Date(value);
       if (Number.isNaN(date.getTime())) return value;
       return new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).format(date);
     };
