@@ -57,13 +57,6 @@
       "published": "2026-09-17T12:00:00.000Z"
     },
     {
-      "category": "Education & Careers",
-      "title": "Trump Administration Investigates Massachusetts School District for Allegedly “Transitioning” Student Without Parents’ Knowledge",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRkZ4UHJlMzFVLVNfY1hIMzFGMUZmdG95T1pVbFhvUEVEMFZrQTRvcTI4c1JGNGJhdS1ldG1VZHhheXVMcmRNUEoxTGxKVE9JZHJCQzFINjc5aUxZVEMyb1RYM2lBMXJNYUtuVGFxQXdNX3RLcnVLVjFuc1RlWU5pbWJLNXF0cjlUSDlrSTdiX1VyOXg3WjFScG01YmhCeUR4dFlSdEJJbENnMFF5bGtEZmgxTWFoejlfNE1VcF9zWi1EN3F1Zkt1MGJrVDVCNVhmOTFicm5uMGVPZ0R4X043RGtEOUI1UF8tQkd0RkJkNHZCdmhRR1UwYg?oc=5",
-      "published": "2026-09-17T07:00:00.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "Fit Pays Off: Strong College Match Linked to Higher On-Time Graduation, New Report Finds",
       "source": "College Board",
@@ -83,7 +76,14 @@
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-11/second-pell-grant-administrative-cost-allowance-payments-2025-26-award-year",
       "published": "2026-09-11T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "College Board Officially Launches the First Nivel Avanzado Program (PNA®) Course in Computer Science Principles",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/college-board-officially-launches-first-nivel-avanzado-program-pnar-course-computer-science",
+      "published": "2026-09-10T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-09-26T11:30:06.371Z"
+  "updatedAt": "2026-09-26T16:27:30.001Z"
 }
