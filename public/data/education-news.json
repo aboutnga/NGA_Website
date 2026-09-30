@@ -15,6 +15,13 @@
       "published": "2026-09-29T12:00:00.000Z"
     },
     {
+      "category": "Financial Aid",
+      "title": "(LOANS-26-07) Distribution of FY 2023 Official Cohort Default Rates and Appeal Timeline",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-29/distribution-fy-2023-official-cohort-default-rates-and-appeal-timeline",
+      "published": "2026-09-29T12:00:00.000Z"
+    },
+    {
       "category": "Education & Careers",
       "title": "U.S. Department of Education Awards Comprehensive Centers Program Grants to Strengthen State and Local Education Support | IES",
       "source": "Institute of Education Sciences (.gov)",
@@ -50,11 +57,18 @@
       "published": "2026-09-23T12:00:00.000Z"
     },
     {
-      "category": "Education & Careers",
+      "category": "Financial Aid",
+      "title": "(GENERAL-26-58) Federal Perkins Loan Servicer Change – School Transition Information",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-perkins-loan-servicer-change-school-transition-information",
+      "published": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
       "title": "(GENERAL-26-57) Federal Student Aid Posts Updated Reports to FSA Data Center",
-      "source": "FSA Partner Connect (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNDFOclB0YTlKQ2dzckszR1dvWTFRSFZJVmswTjdoR1BuOVl2c1l4X1p3U0hoX3hBME9ZODJlbjEyajU3bjFFa1V1YWczbHJKZlc2TldLaGQ3NEgybWhjSVZpbkluMklncndUd2pUamZlUzU4YUY1N1JtLVJYaHIzWXQ4c1R4UlFqUHo1UW5HOHlaTjhkSFczWGpDbVNpMnE5YjdDSG5jLXpuNE96bm5SYm82Y2FoanBuSzAwVVc4dUhVM0VWUlZUc3VxU3RGeEpWVVpJWEVQVjl3aUFCTnc?oc=5",
-      "published": "2026-09-22T05:29:44.000Z"
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-student-aid-posts-updated-reports-fsa-data-center",
+      "published": "2026-09-22T12:00:00.000Z"
     },
     {
       "category": "College Admissions",
@@ -69,21 +83,7 @@
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/fit-pays-strong-college-match-linked-higher-time-graduation-new-report-finds",
       "published": "2026-09-15T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "College Board Officially Launches the First Nivel Avanzado Program (PNA®) Course in Computer Science Principles",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/college-board-officially-launches-first-nivel-avanzado-program-pnar-course-computer-science",
-      "published": "2026-09-10T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "College Board President Jeremy Singer Joins National Commission on AI and the Future of the American Workforce",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/college-board-president-jeremy-singer-joins-national-commission-ai-and-future-american-workforce",
-      "published": "2026-09-10T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-09-30T05:38:01.632Z"
+  "updatedAt": "2026-09-30T12:41:22.535Z"
 }
