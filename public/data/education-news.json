@@ -2,6 +2,34 @@
   "items": [
     {
       "category": "Education & Careers",
+      "title": "U.S. Department of Education and U.S. Department of the Treasury Launch New Defaulted Loans Support Center",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNd0g3M3hCUGlXRXVCZXlDb0RxYVpkTXptTkZCSkJRV0RudzlmbEpQNWc5ZVp0aGpPR0RaQURoRVhERG9NQTZJZXdZdmxJOEFjc0ZmeHVmY0E3OVdqTnEzVTkyTDlnbjlWTzcxZlFWTGJnbFdadk5sT2ZaY3dsUFhBWV9yRmtmS2h1dEZjem9samNXRVJUcTUtc3pVRmFPTGE0YmIwbjUwRENudVZTNWVjd1BSU1JQMEVDWWQtRWwwSFU5bm9BNzhhWS11cFRoZFlnUWpUbzFfR0hpQQ?oc=5",
+      "published": "2026-09-30T14:02:01.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/bluebook-recognized-2026-gaady-award-accessibility",
+      "published": "2026-09-30T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "Gov. Braun Recognizes Rural Bloomfield School Where Indiana’s First-in-the-Nation Cybersecurity Pathway Comes to Life",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/gov-braun-recognizes-rural-bloomfield-school-where-indianas-first-nation-cybersecurity-pathway",
+      "published": "2026-09-30T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(LOANS-26-08) FY 2023 Official National Student Loan Cohort Default Rate Briefing",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-30/fy-2023-official-national-student-loan-cohort-default-rate-briefing",
+      "published": "2026-09-30T12:00:00.000Z"
+    },
+    {
+      "category": "Education & Careers",
       "title": "U.S. Department of Education Extends Enrollment Period for Student Loan Interest Rate Reduction",
       "source": "U.S. Department of Education (.gov)",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb1VSaW5NTGNXS0xSNXBzY0pYLXpWREhqZUwxYS1kWVlFTDh6UG9nMWktb0lLNXpvcms3MHgxb0pNa0Z4cTVXZTYxaGJ4Y1hzcE9yeWkwRlJEc2ZTMW81TXFORjMzTjJDc0RWbzBnMHpsYzhIbjJ0UlkzLVpKS2pWR3lmSk9EcG5kX3UwNlZLaEM4WVNPN1otYkdZcERoXzNXYUt3RkRmeVVyRWpsRGFkdnc0djRVQnhpeGMtbkhlUjMybDNMVHRhOUw0Tjk1QQ?oc=5",
@@ -24,16 +52,9 @@
     {
       "category": "Education & Careers",
       "title": "U.S. Department of Education Awards Comprehensive Centers Program Grants to Strengthen State and Local Education Support | IES",
-      "source": "Institute of Education Sciences (.gov)",
+      "source": "ies.ed.gov",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTFpoQWdXMll5MkJtZUdnR3VzVFhyanIxNFByU2Y4bnF3WVdwd1h1eXB3Vzd5ZXEwTEt4R3JkaUdrNXM5ai1GOC1ncUJQSmNUWTF3TEZCZ2M2Ujd2UXB5azhSOXFpY0lQNjFEN1ptREMyRThDY1Z1VExoRDNrWUNBZFhMS2FjRlJYcmsyMFpMS3NXNnRRMGptMW9EcGgzaDVHOWF2YUppRE1CV0UwZWwxVlk2R2FTemhvSEZweVJnOF8ydVRORjFoZXk1ZzJocGc?oc=5",
       "published": "2026-09-28T21:07:04.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "U.S. Department of Education Approves Workforce Pell Grant Programs in Florida",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd0twbGNBNXZPQ3didUR6anNxcmZHTDdPVW5HMTVPU2p1eW9jRml3dFM0RFNrVUVtUnJFU1IyZU9tb1dQNEhwb2N6RlNuM09PUjBNUk5fS2tteHZ5SGY2c0o3NlpCdXpSTXNUU2hlWFZBNkFSRXRTZEVENTVoUTV2RG1Vdko4WW5UWkxZX1ZfeDZ4VXYyUi00S0ZKMW95cEhUeGJRN0stTWt6eDZmdGxzYk14NUVXVXFp?oc=5",
-      "published": "2026-09-28T19:13:13.000Z"
     },
     {
       "category": "Education & Careers",
@@ -62,28 +83,7 @@
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-perkins-loan-servicer-change-school-transition-information",
       "published": "2026-09-22T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-57) Federal Student Aid Posts Updated Reports to FSA Data Center",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-student-aid-posts-updated-reports-fsa-data-center",
-      "published": "2026-09-22T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "College Board and U.S. Chamber of Commerce Foundation Convened Civics@Work Forum on Constitution Day",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/college-board-and-us-chamber-commerce-foundation-convened-civicswork-forum-constitution-day",
-      "published": "2026-09-17T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "Fit Pays Off: Strong College Match Linked to Higher On-Time Graduation, New Report Finds",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/fit-pays-strong-college-match-linked-higher-time-graduation-new-report-finds",
-      "published": "2026-09-15T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-09-30T12:41:22.535Z"
+  "updatedAt": "2026-09-30T22:20:15.570Z"
 }
