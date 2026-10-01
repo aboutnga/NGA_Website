@@ -2,6 +2,13 @@
   "items": [
     {
       "category": "Education & Careers",
+      "title": "U.S. Department of Education Calls on Schools to Strengthen Education on the History and Dangers of Communism and Socialism",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUVlPOE1aNkFUaFJiNFJjZmlLT1plY3J4aGFkM21lUXZSTFJnNnU2UHdXZWFIb2RSTHowYWl6RDJ6YndDNU1PY0lkVlVpMnIzYWlOX0h3cVRMdmF1MDFzYTBwQlhzeG9ORkZBemVYRnJDbkpubGFTaDFVVzdyS1hKRHFkR0s3dFFLaHZPamNNUlEwdDY3X0x3UG9NWmEtQXpUWHBHTEc5TzZXS2d4NWFFZzZvVnhsRVI5MTEwUGRwX0Y2MmltWEUtNXlNM2lKclhSRXdBMjVKaXlNbmpYcUdZWUsyODFnNWs?oc=5",
+      "published": "2026-09-30T18:05:00.000Z"
+    },
+    {
+      "category": "Education & Careers",
       "title": "U.S. Department of Education and U.S. Department of the Treasury Launch New Defaulted Loans Support Center",
       "source": "U.S. Department of Education (.gov)",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNd0g3M3hCUGlXRXVCZXlDb0RxYVpkTXptTkZCSkJRV0RudzlmbEpQNWc5ZVp0aGpPR0RaQURoRVhERG9NQTZJZXdZdmxJOEFjc0ZmeHVmY0E3OVdqTnEzVTkyTDlnbjlWTzcxZlFWTGJnbFdadk5sT2ZaY3dsUFhBWV9yRmtmS2h1dEZjem9samNXRVJUcTUtc3pVRmFPTGE0YmIwbjUwRENudVZTNWVjd1BSU1JQMEVDWWQtRWwwSFU5bm9BNzhhWS11cFRoZFlnUWpUbzFfR0hpQQ?oc=5",
@@ -22,11 +29,18 @@
       "published": "2026-09-30T12:00:00.000Z"
     },
     {
-      "category": "Financial Aid",
+      "category": "Education & Careers",
       "title": "(LOANS-26-08) FY 2023 Official National Student Loan Cohort Default Rate Briefing",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-30/fy-2023-official-national-student-loan-cohort-default-rate-briefing",
-      "published": "2026-09-30T12:00:00.000Z"
+      "source": "FSA Partner Connect (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYjZDc1Z5UEgyV0dlaHNrT2wyM0dKUms0a3UxUWxXU1c4NnVFOFc4eXVtYkExWGlGTG5lUU1BQXJzNG1IeGUxNzBDYzJvT1pKdzA0ZzV3MF9BbURlcXZfcmxKVTNUdGN0Zi1HellEVHE4Y1IzUU5HS2VaV3RDUWdZMjI1dmJBaE9mVHBiTHZFaGcyaDJJS0hCR1paNHZ5dHYzMlBvQl85am1OSXNlaDdlRjNIb2w4dmVBMk9uUlVxR1hEWFBqNmtVY0thSkNvWkVsWVVtNHRPeDNVRU5nVG11YlI5VHZSM3Y3WHJB?oc=5",
+      "published": "2026-09-30T11:44:17.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "(LOANS-26-07) Distribution of FY 2023 Official Cohort Default Rates and Appeal Timeline",
+      "source": "FSA Partner Connect (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQT0ZSZDg3V1ZZcGVvNXA2ajYxVzJ6X3NCc1pKSHVnbEVnN0U0aHdBdlh4czBuVkhUaGk2SnNBNlBoNWh4TUVDVDMwZUxUN1BjY0RReWpXQ1d0cURYdndla1V2WVhuTDBzTlNGbWU5aGxrWGdtT0c0YnBpdlpLazdlWVNrWXpONnA5VHFfUHktV3JISVlBWjRXNUJla0ExekFxZUg2LTJGeUpYMWJwSmdfbDRla1ZIN1JEUDloUHVJS3RKVzhQWmFOdHpYLWphOV9KdmFTVjJFOGVFamJnZzVSc2U0ajZuMGM4SjFPT3NGMA?oc=5",
+      "published": "2026-09-29T14:32:16.000Z"
     },
     {
       "category": "Education & Careers",
@@ -43,16 +57,9 @@
       "published": "2026-09-29T12:00:00.000Z"
     },
     {
-      "category": "Financial Aid",
-      "title": "(LOANS-26-07) Distribution of FY 2023 Official Cohort Default Rates and Appeal Timeline",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-29/distribution-fy-2023-official-cohort-default-rates-and-appeal-timeline",
-      "published": "2026-09-29T12:00:00.000Z"
-    },
-    {
       "category": "Education & Careers",
       "title": "U.S. Department of Education Awards Comprehensive Centers Program Grants to Strengthen State and Local Education Support | IES",
-      "source": "Institute of Education Sciences (.gov)",
+      "source": "ies.ed.gov",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTFpoQWdXMll5MkJtZUdnR3VzVFhyanIxNFByU2Y4bnF3WVdwd1h1eXB3Vzd5ZXEwTEt4R3JkaUdrNXM5ai1GOC1ncUJQSmNUWTF3TEZCZ2M2Ujd2UXB5azhSOXFpY0lQNjFEN1ptREMyRThDY1Z1VExoRDNrWUNBZFhMS2FjRlJYcmsyMFpMS3NXNnRRMGptMW9EcGgzaDVHOWF2YUppRE1CV0UwZWwxVlk2R2FTemhvSEZweVJnOF8ydVRORjFoZXk1ZzJocGc?oc=5",
       "published": "2026-09-28T21:07:04.000Z"
     },
@@ -76,14 +83,7 @@
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/new-college-board-research-ap-teachers-push-guardrails-and-support-genai-reshapes-classroom",
       "published": "2026-09-23T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-58) Federal Perkins Loan Servicer Change – School Transition Information",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-perkins-loan-servicer-change-school-transition-information",
-      "published": "2026-09-22T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-01T13:24:28.248Z"
+  "updatedAt": "2026-10-01T22:44:07.948Z"
 }
