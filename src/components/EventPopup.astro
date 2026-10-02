@@ -1,6 +1,6 @@
 ---
 const registrationOpen = true;
-const registrationUrl = 'https://forms.gle/cK2QJrfFRGDjBqhKA';
+const registrationUrl = 'https://forms.gle/nxWsG5QkuNAUvbGx5';
 ---
 
 {registrationOpen && (
@@ -8,24 +8,24 @@ const registrationUrl = 'https://forms.gle/cK2QJrfFRGDjBqhKA';
     class="event-popup"
     id="meet-a-mentor-popup"
     aria-labelledby="event-popup-title"
-    data-expires="2026-09-20T00:00:00-07:00"
+    data-expires="2026-10-11T00:00:00-07:00"
   >
     <div class="event-popup__panel">
       <button class="event-popup__close" type="button" aria-label="Close event announcement">×</button>
       <div class="event-popup__flyer">
         <img
-          src="/images/events/meet-a-mentor-10.jpg"
-          alt="Meet a Mentor number 10: Careers in LA Fire Department, September 19, 2026 from 10 AM to 2 PM at KAFLA Hall"
+          src="/images/events/meet-a-mentor-11.jpg"
+          alt="Meet a Mentor number 11: Careers and opportunities at the Federal Bureau of Investigation, October 10, 2026 from 10 AM to 2 PM at KAFLA Hall"
         />
       </div>
       <div class="event-popup__details">
         <span class="eyebrow">Upcoming Event</span>
-        <h2 id="event-popup-title">Meet a Mentor #10</h2>
-        <p class="event-popup__topic">Careers in LA Fire Department</p>
+        <h2 id="event-popup-title">Meet a Mentor #11</h2>
+        <p class="event-popup__topic">Careers &amp; Opportunities at the FBI</p>
         <dl>
-          <div><dt>Date · 날짜</dt><dd>Saturday, September 19, 2026</dd></div>
+          <div><dt>Date · 날짜</dt><dd>Saturday, October 10, 2026</dd></div>
           <div><dt>Time · 시간</dt><dd>10:00 AM–2:00 PM</dd></div>
-          <div><dt>Mentor · 멘토</dt><dd>Jason Phillips,<br class="event-popup__mobile-break"/> <span class="event-popup__agency">Los Angeles Fire Department</span></dd></div>
+          <div><dt>Mentor · 멘토</dt><dd>FBI Special Agent,<br class="event-popup__mobile-break"/> <span class="event-popup__agency">Los Angeles Division</span></dd></div>
           <div class="event-popup__parking">
             <dt>Free All-Day Parking · 무료 종일 주차</dt>
             <dd>
@@ -36,9 +36,15 @@ const registrationUrl = 'https://forms.gle/cK2QJrfFRGDjBqhKA';
           </div>
         </dl>
         <p class="event-popup__note">Parents and students must attend together.<br/><span lang="ko">부모와 학생이 반드시 함께 참석해야 합니다.</span></p>
-        <a class="event-popup__register" href={registrationUrl} target="_blank" rel="noreferrer">
-          Register · 등록하기
-        </a>
+        {registrationUrl ? (
+          <a class="event-popup__register" href={registrationUrl} target="_blank" rel="noreferrer">
+            Register · 등록하기
+          </a>
+        ) : (
+          <button class="event-popup__register event-popup__register--pending" type="button" disabled>
+            Register · 등록하기
+          </button>
+        )}
         <button class="event-popup__later" type="button">Not now · 나중에</button>
       </div>
     </div>
@@ -93,6 +99,7 @@ const registrationUrl = 'https://forms.gle/cK2QJrfFRGDjBqhKA';
   .event-popup__note{margin:0 0 14px;color:var(--muted);font-size:.9rem;line-height:1.45}
   .event-popup__register{display:flex;min-height:52px;align-items:center;justify-content:center;padding:13px 20px;color:#fff;background:var(--burgundy);border-radius:4px;text-decoration:none;font-size:1.05rem;font-weight:700}
   .event-popup__register:hover{background:#84273a}
+  .event-popup__register--pending{border:0;cursor:not-allowed;opacity:.72}
   .event-popup__later{align-self:center;margin-top:12px;padding:6px 10px;color:var(--muted);background:transparent;border:0;text-decoration:underline;cursor:pointer}
   @media(min-width:1000px){.event-popup__details h2{font-size:2.35rem;white-space:nowrap}}
   @media(max-width:760px){
