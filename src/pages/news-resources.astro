@@ -58,7 +58,7 @@ const formatSelectedDate = (value: string) => new Intl.DateTimeFormat('en-US', {
             <h2 id="korean-media-title">미국교육 뉴스</h2>
           </div>
           <div class="korean-media__list">
-            {selectedKoreanMedia.length ? selectedKoreanMedia.map((item, index) =>
+            {selectedKoreanMedia.length ? selectedKoreanMedia.slice(0, 4).map((item, index) =>
               <a class="media-story" href={item.url} target="_blank" rel="noreferrer">
                 <b>{index + 1}</b>
                 <span>
