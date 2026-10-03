@@ -36,13 +36,6 @@
       "published": "2026-09-30T12:00:00.000Z"
     },
     {
-      "category": "Education & Careers",
-      "title": "U.S. Department of Education Extends Enrollment Period for Student Loan Interest Rate Reduction",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOFhaRmJncGNpMUlHLXBjYXJXNzNYdF9DY3pqN3BiTnRMSUpuYkJnWmxaUXhWaUVfZXhnRHdjYjBybkkzTzhfcHM5Z3A3RXhBNEQ2dko4MmpSR29IZm9NcWxrMi05WmVqbGFQUldNZklxNVdiXzV6MlJWbDdLeWhrY3NNTVQtaHhRR19hNGpWTUVlc1FKUEpZSW1jako2NERvSlV1S2tpbzdMTzBTX2RxWnpXcnVud3Fya0FLc2d5RURDVmJHRlVwcC1NeGc?oc=5",
-      "published": "2026-09-29T14:17:12.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
       "source": "College Board",
@@ -83,7 +76,14 @@
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-perkins-loan-servicer-change-school-transition-information",
       "published": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(GENERAL-26-57) Federal Student Aid Posts Updated Reports to FSA Data Center",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-student-aid-posts-updated-reports-fsa-data-center",
+      "published": "2026-09-22T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-03T16:26:06.624Z"
+  "updatedAt": "2026-10-03T21:21:54.006Z"
 }
