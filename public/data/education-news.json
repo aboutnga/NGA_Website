@@ -11,7 +11,7 @@
       "category": "Education & Careers",
       "title": "U.S. Department of Education and U.S. Department of the Treasury Launch New Defaulted Loans Support Center",
       "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNd0g3M3hCUGlXRXVCZXlDb0RxYVpkTXptTkZCSkJRV0RudzlmbEpQNWc5ZVp0aGpPR0RaQURoRVhERG9NQTZJZXdZdmxJOEFjc0ZmeHVmY0E3OVdqTnEzVTkyTDlnbjlWTzcxZlFWTGJnbFdadk5sT2ZaY3dsUFhBWV9yRmtmS2h1dEZjem9samNXRVJUcTUtc3pVRmFPTGE0YmIwbjUwRENudVZTNWVjd1BSU1JQMEVDWWQtRWwwSFU5bm9BNzhhWS11cFRoZFlnUWpUbzFfR0hpQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUmRZUl9JY1ZuTjB4VUJSYk1ZRDVQbXhUOFo0ZzhfcFV6c0dKTUdOVnhGRkMwTlZPVXJRUlkzY1FjNjhSVG9CcVBDSHIwTVBfY3NtV3Q3Ui14bWkzRmtnMmVCeE1VQkJLRFdMNHdicU5xZVhCVE9ORFFxeDRjWWJfWEJveWtvS3ktaHlsaGxGalBKejNNT3JLZ3hoRTNoZ3RvUzB3c3d5YTBubzQ3WXNmeHNGQk1VNjdVdEFIX0d2MEEzbVNrMVJXMWZseWtuU1dKbHZIak1kLTc?oc=5",
       "published": "2026-09-30T14:02:01.000Z"
     },
     {
@@ -29,18 +29,11 @@
       "published": "2026-09-30T12:00:00.000Z"
     },
     {
-      "category": "Education & Careers",
+      "category": "Financial Aid",
       "title": "(LOANS-26-08) FY 2023 Official National Student Loan Cohort Default Rate Briefing",
-      "source": "FSA Partner Connect (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYjZDc1Z5UEgyV0dlaHNrT2wyM0dKUms0a3UxUWxXU1c4NnVFOFc4eXVtYkExWGlGTG5lUU1BQXJzNG1IeGUxNzBDYzJvT1pKdzA0ZzV3MF9BbURlcXZfcmxKVTNUdGN0Zi1HellEVHE4Y1IzUU5HS2VaV3RDUWdZMjI1dmJBaE9mVHBiTHZFaGcyaDJJS0hCR1paNHZ5dHYzMlBvQl85am1OSXNlaDdlRjNIb2w4dmVBMk9uUlVxR1hEWFBqNmtVY0thSkNvWkVsWVVtNHRPeDNVRU5nVG11YlI5VHZSM3Y3WHJB?oc=5",
-      "published": "2026-09-30T11:44:17.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "(LOANS-26-07) Distribution of FY 2023 Official Cohort Default Rates and Appeal Timeline",
-      "source": "FSA Partner Connect (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQT0ZSZDg3V1ZZcGVvNXA2ajYxVzJ6X3NCc1pKSHVnbEVnN0U0aHdBdlh4czBuVkhUaGk2SnNBNlBoNWh4TUVDVDMwZUxUN1BjY0RReWpXQ1d0cURYdndla1V2WVhuTDBzTlNGbWU5aGxrWGdtT0c0YnBpdlpLazdlWVNrWXpONnA5VHFfUHktV3JISVlBWjRXNUJla0ExekFxZUg2LTJGeUpYMWJwSmdfbDRla1ZIN1JEUDloUHVJS3RKVzhQWmFOdHpYLWphOV9KdmFTVjJFOGVFamJnZzVSc2U0ajZuMGM4SjFPT3NGMA?oc=5",
-      "published": "2026-09-29T14:32:16.000Z"
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-30/fy-2023-official-national-student-loan-cohort-default-rate-briefing",
+      "published": "2026-09-30T12:00:00.000Z"
     },
     {
       "category": "Education & Careers",
@@ -54,6 +47,13 @@
       "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/sat-turns-100-nearly-2-million-students-class-2026-take-test",
+      "published": "2026-09-29T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(LOANS-26-07) Distribution of FY 2023 Official Cohort Default Rates and Appeal Timeline",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-29/distribution-fy-2023-official-cohort-default-rates-and-appeal-timeline",
       "published": "2026-09-29T12:00:00.000Z"
     },
     {
@@ -78,12 +78,12 @@
       "published": "2026-09-23T12:00:00.000Z"
     },
     {
-      "category": "Education & Careers",
-      "title": "(GENERAL-26-57) Federal Student Aid Posts Updated Reports to FSA Data Center",
-      "source": "FSA Partner Connect (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNDFOclB0YTlKQ2dzckszR1dvWTFRSFZJVmswTjdoR1BuOVl2c1l4X1p3U0hoX3hBME9ZODJlbjEyajU3bjFFa1V1YWczbHJKZlc2TldLaGQ3NEgybWhjSVZpbkluMklncndUd2pUamZlUzU4YUY1N1JtLVJYaHIzWXQ4c1R4UlFqUHo1UW5HOHlaTjhkSFczWGpDbVNpMnE5YjdDSG5jLXpuNE96bm5SYm82Y2FoanBuSzAwVVc4dUhVM0VWUlZUc3VxU3RGeEpWVVpJWEVQVjl3aUFCTnc?oc=5",
-      "published": "2026-09-22T07:00:00.000Z"
+      "category": "Financial Aid",
+      "title": "(GENERAL-26-58) Federal Perkins Loan Servicer Change – School Transition Information",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-perkins-loan-servicer-change-school-transition-information",
+      "published": "2026-09-22T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-03T11:44:12.120Z"
+  "updatedAt": "2026-10-03T16:26:06.624Z"
 }
