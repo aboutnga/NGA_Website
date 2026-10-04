@@ -8,13 +8,6 @@
       "published": "2026-09-30T18:05:00.000Z"
     },
     {
-      "category": "Education & Careers",
-      "title": "U.S. Department of Education and U.S. Department of the Treasury Launch New Defaulted Loans Support Center",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUmRZUl9JY1ZuTjB4VUJSYk1ZRDVQbXhUOFo0ZzhfcFV6c0dKTUdOVnhGRkMwTlZPVXJRUlkzY1FjNjhSVG9CcVBDSHIwTVBfY3NtV3Q3Ui14bWkzRmtnMmVCeE1VQkJLRFdMNHdicU5xZVhCVE9ORFFxeDRjWWJfWEJveWtvS3ktaHlsaGxGalBKejNNT3JLZ3hoRTNoZ3RvUzB3c3d5YTBubzQ3WXNmeHNGQk1VNjdVdEFIX0d2MEEzbVNrMVJXMWZseWtuU1dKbHZIak1kLTc?oc=5",
-      "published": "2026-09-30T14:02:01.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
       "source": "College Board",
@@ -52,16 +45,9 @@
     {
       "category": "Education & Careers",
       "title": "U.S. Department of Education Awards Comprehensive Centers Program Grants to Strengthen State and Local Education Support | IES",
-      "source": "Institute of Education Sciences (.gov)",
+      "source": "ies.ed.gov",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTFpoQWdXMll5MkJtZUdnR3VzVFhyanIxNFByU2Y4bnF3WVdwd1h1eXB3Vzd5ZXEwTEt4R3JkaUdrNXM5ai1GOC1ncUJQSmNUWTF3TEZCZ2M2Ujd2UXB5azhSOXFpY0lQNjFEN1ptREMyRThDY1Z1VExoRDNrWUNBZFhMS2FjRlJYcmsyMFpMS3NXNnRRMGptMW9EcGgzaDVHOWF2YUppRE1CV0UwZWwxVlk2R2FTemhvSEZweVJnOF8ydVRORjFoZXk1ZzJocGc?oc=5",
       "published": "2026-09-28T21:07:04.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "U.S. Department of Education Formally Rescinds the Biden Administration’s Illegal Title IX Rewrite, Reinstating the 2020 Regulation",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSklEMjVwa1BLODdySWtmNTVOZmthR0t0WUJUZlh0U1ZVZ3ZhUDZHZzR0ZjFVckVPRG5lYlRySGZnd0lfbERlekpYYTl2NXNJamJ1clV3SGJpaGJLd2YzSWdLOUFmRmlsRk5HVUt6Y1hkRm5rOFp6dVFWNTdhdzZSYW5JUEEzd0xUbGdHMkpRamxxT2NzVGpsRFlDaThPZXJxcEVzZ3B6XzB4NThuWlJ4YnBsM2FmN3NsOTBoZHQxM3ZzT1N2NFk0bFJhN2Q4WXZiZ0U3bkNuNFNlSkd1UmZtWXVXRnZxOXJKdTdSeXowTGRlWUhU?oc=5",
-      "published": "2026-09-28T14:11:24.000Z"
     },
     {
       "category": "College Admissions",
@@ -83,7 +69,21 @@
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-student-aid-posts-updated-reports-fsa-data-center",
       "published": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "College Board and U.S. Chamber of Commerce Foundation Convened Civics@Work Forum on Constitution Day",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/college-board-and-us-chamber-commerce-foundation-convened-civicswork-forum-constitution-day",
+      "published": "2026-09-17T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "Fit Pays Off: Strong College Match Linked to Higher On-Time Graduation, New Report Finds",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/fit-pays-strong-college-match-linked-higher-time-graduation-new-report-finds",
+      "published": "2026-09-15T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-03T21:21:54.006Z"
+  "updatedAt": "2026-10-04T05:59:10.542Z"
 }
