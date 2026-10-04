@@ -1,13 +1,6 @@
 {
   "items": [
     {
-      "category": "Education & Careers",
-      "title": "U.S. Department of Education Calls on Schools to Strengthen Education on the History and Dangers of Communism and Socialism",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPeXl4ZTJESDZBU3FidWpFVU5rSVBTemN0amx4cW5wSER0N21YYVBIalpSM1pmVk1nUFN3T2RaMFdsR2YtY0tyeGR3d0xTM0ZZWjZDWUU3TC1hUnR6YUZxYzNjUTk4VTdHcGFWWFJNdktpYzAwM2pMS1BVVnVmNkkzdnpUSEFsMC1lQUlNelptSUJkSndrZzE0MVFhWWJPQkMxOE9ZbDd5aHhYSTVzWTR4emtqLUFQcURRdjU1Z0dXNXUtQkI5YlFwSXRuOVM4MmpRZ2FTNUxkS3RoNmFRRVhycnF5UDJaQQ?oc=5",
-      "published": "2026-09-30T18:05:00.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
       "source": "College Board",
@@ -45,7 +38,7 @@
     {
       "category": "Education & Careers",
       "title": "U.S. Department of Education Awards Comprehensive Centers Program Grants to Strengthen State and Local Education Support | IES",
-      "source": "ies.ed.gov",
+      "source": "Institute of Education Sciences (.gov)",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTFpoQWdXMll5MkJtZUdnR3VzVFhyanIxNFByU2Y4bnF3WVdwd1h1eXB3Vzd5ZXEwTEt4R3JkaUdrNXM5ai1GOC1ncUJQSmNUWTF3TEZCZ2M2Ujd2UXB5azhSOXFpY0lQNjFEN1ptREMyRThDY1Z1VExoRDNrWUNBZFhMS2FjRlJYcmsyMFpMS3NXNnRRMGptMW9EcGgzaDVHOWF2YUppRE1CV0UwZWwxVlk2R2FTemhvSEZweVJnOF8ydVRORjFoZXk1ZzJocGc?oc=5",
       "published": "2026-09-28T21:07:04.000Z"
     },
@@ -83,7 +76,14 @@
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/fit-pays-strong-college-match-linked-higher-time-graduation-new-report-finds",
       "published": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(GRANTS-26-08) Third and Final Pell Grant Administrative Cost Allowance Payments for 2024–25 Award Year",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-11/third-and-final-pell-grant-administrative-cost-allowance-payments-2024-25-award-year",
+      "published": "2026-09-11T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-04T12:27:01.783Z"
+  "updatedAt": "2026-10-04T21:32:39.959Z"
 }
