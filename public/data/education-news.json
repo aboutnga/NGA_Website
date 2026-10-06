@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "category": "Education & Careers",
+      "title": "U.S. Department of Education and U.S. Department of Justice Reaffirm Parents Are Not Terrorists and Have the Right to Direct their Children’s Education",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOSUp4bmVySzJ3bzZERldrWGh4UTYzOW9FbHNKSzJlc1lYZENLVFNkcVlpZklVTVNweHFqb1NJY3dMNm5ueVBERnFBVE02OFFFcEpGRUZSTFdHUnJzZVF4MENVWEFmQWhTX0p3cURHRTdoUzdvTzBkMTM1YVJCWnBxa284T3gwV25sQjA5dUE5Y0FLLUk4S1RzSlg1cWR0SU5ObEJzM01HRm5HVEV6d3ljVFRRMG8xNXNBY2VpbHVGQ3VJYUptdE1ZbUYxbDdOcVk0NXRiRWowRXBtSWNlX2szUmIwaFpZd3JZdmg2Q1VMMDhDUXZMZ21YUElxVUxwN1ROc3poUnFzLUhpVDBJSWxHbA?oc=5",
+      "published": "2026-10-05T15:33:03.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "(GENERAL-26-60) Active Confirmation Required by Dec. 31, 2026, to Maintain Access to FSA Systems",
+      "source": "FSA Partner Connect (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZ2ZybzgwOGJPeVk0Z1BKXzBFU0RVZnE1bUdSb05MSWt3MUVrWm5tbnhBR1hlVWZBSGVGeTNNUFFsX3MzVHl5TW80Rk9IY0tmQTdfTFJxYkdyQzJ0VjJRMGxuVjFzRVdtODVSODEyYWdHbXJ1MktRb0NLU2dHQlhXT3pEcDlDaWhhOWhRMGF1bjczd195Qi03TFB0UU52TEgzWmotRmVZTXA0Z2wxY0pnTlJ1OTBBY3JXSm1ndk1LMnNWbzdoVUlkelN1WDZDMkY4eW9MTEFzRTZIeE5JZWNSeUlrc0UycTZlVkFIVQ?oc=5",
+      "published": "2026-10-02T14:54:46.000Z"
+    },
+    {
       "category": "College Admissions",
       "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
       "source": "College Board",
@@ -69,21 +83,7 @@
       "source": "Bureau of Labor Statistics (.gov)",
       "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBTY3RBdmpieG8xd0Q3VVN2QmQwSlVHeFBWUTNkQWN0b3hDRjNNaFpPZmVfU2lfYWVYY01TYw?oc=5",
       "published": "2026-08-27T07:00:00.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "Education pays",
-      "source": "Bureau of Labor Statistics (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB3R2tTa01JeklzWHBObU5BcWstemd1OE84OVZ1U2hhUVRuUzRBWklTbGxKTC0tb2l0Zlg4Z1phQ3RUNWNuWV9mWEVneVI5d2lzLVJCNkhkRUFMR2xhbFY5OHF4T2J4ejMwRXJCLWxzQTl0UWM?oc=5",
-      "published": "2026-08-27T07:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "Agreements",
-      "source": "Federal Student Aid (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ITHktOExZSm9mNFZpNmp0NG1ES1dUY0hnVFA3TjJYMUxxYXhSb2ZNckt4Z3lCQktFcl9FYUcybkZLWU9NUDh5dmhpV3VYeU96NXFUVi1vbmo?oc=5",
-      "published": "2026-03-19T11:46:39.000Z"
     }
   ],
-  "updatedAt": "2026-10-05T14:48:24.914Z"
+  "updatedAt": "2026-10-06T00:06:20.894Z"
 }
