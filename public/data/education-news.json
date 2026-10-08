@@ -8,13 +8,6 @@
       "published": "2026-10-06T16:31:20.000Z"
     },
     {
-      "category": "Financial Aid",
-      "title": "(APP-26-14) Final 2027–28 FAFSA PDF Form, FAFSA Form for Incarcerated Applicants, and FAFSA Submission Summary",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-06/final-2027-28-fafsa-pdf-form-fafsa-form-incarcerated-applicants-and-fafsa-submission-summary",
-      "published": "2026-10-06T12:00:00.000Z"
-    },
-    {
       "category": "Education & Careers",
       "title": "U.S. Department of Education and U.S. Department of Justice Reaffirm Parents Are Not Terrorists and Have the Right to Direct their Children’s Education",
       "source": "U.S. Department of Education (.gov)",
@@ -36,24 +29,17 @@
       "published": "2026-09-30T12:00:00.000Z"
     },
     {
-      "category": "Financial Aid",
+      "category": "Education & Careers",
       "title": "(LOANS-26-08) FY 2023 Official National Student Loan Cohort Default Rate Briefing",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-30/fy-2023-official-national-student-loan-cohort-default-rate-briefing",
-      "published": "2026-09-30T12:00:00.000Z"
+      "source": "FSA Partner Connect (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYjZDc1Z5UEgyV0dlaHNrT2wyM0dKUms0a3UxUWxXU1c4NnVFOFc4eXVtYkExWGlGTG5lUU1BQXJzNG1IeGUxNzBDYzJvT1pKdzA0ZzV3MF9BbURlcXZfcmxKVTNUdGN0Zi1HellEVHE4Y1IzUU5HS2VaV3RDUWdZMjI1dmJBaE9mVHBiTHZFaGcyaDJJS0hCR1paNHZ5dHYzMlBvQl85am1OSXNlaDdlRjNIb2w4dmVBMk9uUlVxR1hEWFBqNmtVY0thSkNvWkVsWVVtNHRPeDNVRU5nVG11YlI5VHZSM3Y3WHJB?oc=5",
+      "published": "2026-09-30T11:44:17.000Z"
     },
     {
       "category": "College Admissions",
       "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/sat-turns-100-nearly-2-million-students-class-2026-take-test",
-      "published": "2026-09-29T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(LOANS-26-07) Distribution of FY 2023 Official Cohort Default Rates and Appeal Timeline",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-29/distribution-fy-2023-official-cohort-default-rates-and-appeal-timeline",
       "published": "2026-09-29T12:00:00.000Z"
     },
     {
@@ -71,19 +57,33 @@
       "published": "2026-09-23T12:00:00.000Z"
     },
     {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-58) Federal Perkins Loan Servicer Change – School Transition Information",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-perkins-loan-servicer-change-school-transition-information",
-      "published": "2026-09-22T12:00:00.000Z"
+      "category": "Education & Careers",
+      "title": "(GENERAL-26-57) Federal Student Aid Posts Updated Reports to FSA Data Center",
+      "source": "FSA Partner Connect (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNDFOclB0YTlKQ2dzckszR1dvWTFRSFZJVmswTjdoR1BuOVl2c1l4X1p3U0hoX3hBME9ZODJlbjEyajU3bjFFa1V1YWczbHJKZlc2TldLaGQ3NEgybWhjSVZpbkluMklncndUd2pUamZlUzU4YUY1N1JtLVJYaHIzWXQ4c1R4UlFqUHo1UW5HOHlaTjhkSFczWGpDbVNpMnE5YjdDSG5jLXpuNE96bm5SYm82Y2FoanBuSzAwVVc4dUhVM0VWUlZUc3VxU3RGeEpWVVpJWEVQVjl3aUFCTnc?oc=5",
+      "published": "2026-09-22T07:00:00.000Z"
     },
     {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-57) Federal Student Aid Posts Updated Reports to FSA Data Center",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-student-aid-posts-updated-reports-fsa-data-center",
-      "published": "2026-09-22T12:00:00.000Z"
+      "category": "College Admissions",
+      "title": "College Board and U.S. Chamber of Commerce Foundation Convened Civics@Work Forum on Constitution Day",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/college-board-and-us-chamber-commerce-foundation-convened-civicswork-forum-constitution-day",
+      "published": "2026-09-17T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "Fit Pays Off: Strong College Match Linked to Higher On-Time Graduation, New Report Finds",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/fit-pays-strong-college-match-linked-higher-time-graduation-new-report-finds",
+      "published": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "Home : Occupational Outlook Handbook",
+      "source": "Bureau of Labor Statistics (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBTY3RBdmpieG8xd0Q3VVN2QmQwSlVHeFBWUTNkQWN0b3hDRjNNaFpPZmVfU2lfYWVYY01TYw?oc=5",
+      "published": "2026-08-27T07:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-08T06:11:42.409Z"
+  "updatedAt": "2026-10-08T13:36:54.972Z"
 }
