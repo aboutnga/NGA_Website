@@ -22,13 +22,6 @@
       "published": "2026-10-07T17:26:37.000Z"
     },
     {
-      "category": "Education & Careers",
-      "title": "U.S. Department of Education Launches Multiple Investigations Based on Reports of Staff-on-Student Sexual Misconduct",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQaUoxbU1rWkRremtEWWZ5d2dKRFlTR0RRS2FKT1NQQ3ZfM0N1UFA3OVp1R0VrZnFScHlXdjJySHMzWmlSSXNwZUs2V0hhaE00Qkl2XzRZeXlHQXR0MTBHSkI2X1lVUjZjWWRBSXVZV1hwVWYtV2RtcVJmOElyR2pvWUlrR1F4d1l2ZVU0QkdLd1pERDVLVWZtT1BjeTRjWmNUOVVGZURzWk1xY0dESERZOU9DV0lWOEx2cTdsVXVjaldlYV9HRmRGa3VCM1pyWkNnR1phbDlwLUUtXzVSSjBLT1otM3VRY2c?oc=5",
-      "published": "2026-10-06T16:31:20.000Z"
-    },
-    {
       "category": "Financial Aid",
       "title": "(APP-26-14) Final 2027–28 FAFSA PDF Form, FAFSA Form for Incarcerated Applicants, and FAFSA Submission Summary",
       "source": "Federal Student Aid",
@@ -83,7 +76,14 @@
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-29/distribution-fy-2023-official-cohort-default-rates-and-appeal-timeline",
       "published": "2026-09-29T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "New College Board Research: AP Teachers Push for Guardrails and Support as GenAI Reshapes the Classroom",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/new-college-board-research-ap-teachers-push-guardrails-and-support-genai-reshapes-classroom",
+      "published": "2026-09-23T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-10T12:37:57.314Z"
+  "updatedAt": "2026-10-10T21:48:23.125Z"
 }
