@@ -2,6 +2,13 @@
   "items": [
     {
       "category": "Education & Careers",
+      "title": "(GEN-26-05) Changes to Campus Security Requirements Related to the Stop Campus Hazing Act",
+      "source": "FSA Partner Connect (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWTFKdzVSZFpOU3FZbGJCc1ZqTXVxX3M2ZkJEcWF2SnpQdTRDdGx2T2pkWWV5dU91Y1NPT19QckhEWFFVZF9MS3hKd1VicnZUMC1Ta3diNDVBVkd4ZEJ2MmM5NEhod0FNRUxIQUd5bDE5V3l3Y0tMdGJQbEJvc284cmxRbzAyZzhNSkpqbVVXRk1ReVZpdHRLa211cUVCUlpzNlBuaWhaZFFKSGdQSzJMdWJaNURBc1c4VGNDSU16VjRSbWFrUWxydjVsa1YyTjg5T2tFRS0yU2ItZVlmSFRZZUNxNGFDMmF2?oc=5",
+      "published": "2026-10-09T04:43:28.000Z"
+    },
+    {
+      "category": "Education & Careers",
       "title": "(ANN-26-24) Webinars – FVT/GE and STATS Reporting Requirements",
       "source": "FSA Partner Connect (.gov)",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQekI0RWU5NV9yT0owWWdQbGh4TmNoREp0VUhvYlJuN0JjUHE2OWZwdzRfdmJwVU9Dc19rbm5lSFYwYjFFMjZyUHlGcC1zTHpsc3BuNE0zSHpWTENhSzdmS2hiVkU1Tkh3UzYtaW9qakpBTGNLQmF3Wl85Rl9IdVdFcGxRQXlIVHBoSHVZbmpBc19WRk9wZ1E3b09iY1JvYVA4SldBbnBqVmE4dmRTTjdlenctS3JZX0RjRGMxTVVJU3l4aWlqSVRRdDRZRUNSbDA?oc=5",
@@ -20,13 +27,6 @@
       "source": "FSA Partner Connect (.gov)",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPakdUR0wwLXhoWEg5WHpWVmhaRVZSa3U1MjhQbUxxNkR2cGhhRVlNNnpvOUJLTmRHN3VCVXptV05SV0ZYcy1QcDMxSzBYZHotMG9NYVZYZDN6VnFUTW9ZaUZKWlpwc3J4WERDX2tsYU1uRjZoQW4zY25xMlp6bHlhWTJzd1FjT3VCdERpUU5kdEpYWmF4NC1Mdk8tOWxTY2RGWTNib2l4bkFkbWpGU215b1dNY0NOSmEtaXRYNmlWNGZpUVVHN1d3ZWJ4ejNrd3dQUVkwV3JjLWV1X0tIRDQ0cWFyZUc5Nmp0VnR5Y0I1Yzh0UQ?oc=5",
       "published": "2026-10-07T17:26:37.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(APP-26-14) Final 2027–28 FAFSA PDF Form, FAFSA Form for Incarcerated Applicants, and FAFSA Submission Summary",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-06/final-2027-28-fafsa-pdf-form-fafsa-form-incarcerated-applicants-and-fafsa-submission-summary",
-      "published": "2026-10-06T12:00:00.000Z"
     },
     {
       "category": "Education & Careers",
@@ -57,24 +57,10 @@
       "published": "2026-09-30T12:00:00.000Z"
     },
     {
-      "category": "Financial Aid",
-      "title": "(LOANS-26-08) FY 2023 Official National Student Loan Cohort Default Rate Briefing",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-30/fy-2023-official-national-student-loan-cohort-default-rate-briefing",
-      "published": "2026-09-30T12:00:00.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/sat-turns-100-nearly-2-million-students-class-2026-take-test",
-      "published": "2026-09-29T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(LOANS-26-07) Distribution of FY 2023 Official Cohort Default Rates and Appeal Timeline",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-29/distribution-fy-2023-official-cohort-default-rates-and-appeal-timeline",
       "published": "2026-09-29T12:00:00.000Z"
     },
     {
@@ -83,7 +69,21 @@
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/new-college-board-research-ap-teachers-push-guardrails-and-support-genai-reshapes-classroom",
       "published": "2026-09-23T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "College Board and U.S. Chamber of Commerce Foundation Convened Civics@Work Forum on Constitution Day",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/college-board-and-us-chamber-commerce-foundation-convened-civicswork-forum-constitution-day",
+      "published": "2026-09-17T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "Fit Pays Off: Strong College Match Linked to Higher On-Time Graduation, New Report Finds",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/fit-pays-strong-college-match-linked-higher-time-graduation-new-report-finds",
+      "published": "2026-09-15T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-10T21:48:23.125Z"
+  "updatedAt": "2026-10-11T05:53:27.296Z"
 }
