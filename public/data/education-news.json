@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "category": "Education & Careers",
-      "title": "(GEN-26-05) Changes to Campus Security Requirements Related to the Stop Campus Hazing Act",
-      "source": "FSA Partner Connect (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWTFKdzVSZFpOU3FZbGJCc1ZqTXVxX3M2ZkJEcWF2SnpQdTRDdGx2T2pkWWV5dU91Y1NPT19QckhEWFFVZF9MS3hKd1VicnZUMC1Ta3diNDVBVkd4ZEJ2MmM5NEhod0FNRUxIQUd5bDE5V3l3Y0tMdGJQbEJvc284cmxRbzAyZzhNSkpqbVVXRk1ReVZpdHRLa211cUVCUlpzNlBuaWhaZFFKSGdQSzJMdWJaNURBc1c4VGNDSU16VjRSbWFrUWxydjVsa1YyTjg5T2tFRS0yU2ItZVlmSFRZZUNxNGFDMmF2?oc=5",
-      "published": "2026-10-09T04:43:28.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "(GENERAL-26-62) Borrower Defense to Repayment Functionality Temporarily Unavailable for Schools (Updated Oct. 9, 2026)",
-      "source": "FSA Partner Connect (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQaEt0VlhBVkRfYVJhbjRkemJiaEFOQlY2N1QwaUVmemtCR2daWlRLX1RNSmVfT29BWG9WMHZTaUZXWFBqbk1DbkVWRWlTZ0ZTa1hhQk4tWDExaDBWQVVvRExwZUNEQkdkVnJvdjUwWDFLRG1NN3dFZ2NnU1B5R19nT2dLUjJ0c3dwODc2NDZUNzJrd1ZYSU44V0ZTbnYtZHhvTWNIbHFqcUlGdzdpWE8yTHpMODZVbURLQ2hjYU5jVlZRM0tNV01ySEF3RTZpb2tQY19JQnZtUjJ3MDNrWmozd1pKWXlyaHdrXy1mejgwS0FaZ2hnVFdURGxSR1RWSjlRNFNhWmFJSGpiYTQ?oc=5",
-      "published": "2026-10-07T15:47:16.000Z"
-    },
-    {
       "category": "Financial Aid",
       "title": "(APP-26-14) Final 2027–28 FAFSA PDF Form, FAFSA Form for Incarcerated Applicants, and FAFSA Submission Summary",
       "source": "Federal Student Aid",
@@ -25,15 +11,15 @@
       "category": "College Admissions",
       "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
       "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/bluebook-recognized-2026-gaady-award-accessibility",
-      "published": "2026-09-30T12:00:00.000Z"
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT002NHl0S0xldXBxMjFVOVpSbm10S1FaUTl4LVphTkFzbWNnMDZjWXFGRUpBZHZfeEx6clVqY2dZb3VFSXdFb0JXaWpHakZYYmR5WEdCSzBzWVJkSFZBWTlFWmNMbllOUXptaGJjWnZhR0RGWFhVQy11LTgzS2paNUNybmxVR3RhU3ZMQQ?oc=5",
+      "published": "2026-09-30T20:45:29.000Z"
     },
     {
       "category": "College Admissions",
       "title": "Gov. Braun Recognizes Rural Bloomfield School Where Indiana’s First-in-the-Nation Cybersecurity Pathway Comes to Life",
       "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/gov-braun-recognizes-rural-bloomfield-school-where-indianas-first-nation-cybersecurity-pathway",
-      "published": "2026-09-30T12:00:00.000Z"
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORm41TzVGOGZCdTRYMlUzWnV6VmE3MlBRNUdSY20zUmRULV9vWnpSMjBBZU1ua1VhZk5IRHNNMUk0N256QVNsR3U3VzZvOGhOanEwWWs1Z3BpY2lOb3RiOURiVU5lUW9FZW1GYW42bFVaV2wyTWhrMDJYWEVsZ01QN0VxLTJFOUlkX2ZfSVN2ZUt1amFXc2RKT2FJUHQ3V0NjSnlkOFlVZGQ4RVFFZmEza3lwX0J4OU9wTmNqS1puYVMyYjdjenJj?oc=5",
+      "published": "2026-09-30T20:45:29.000Z"
     },
     {
       "category": "Financial Aid",
@@ -41,13 +27,6 @@
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-30/fy-2023-official-national-student-loan-cohort-default-rate-briefing",
       "published": "2026-09-30T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/sat-turns-100-nearly-2-million-students-class-2026-take-test",
-      "published": "2026-09-29T12:00:00.000Z"
     },
     {
       "category": "Financial Aid",
@@ -58,10 +37,17 @@
     },
     {
       "category": "College Admissions",
+      "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
+      "source": "College Board",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTFZwWHVxU0w2a0RCOVp0U1IxcG9nc1lILXc5VmJlTWR0RXFpQm9pVG5DWW81cVlOSFE0M0Y3R1NsNTJUV3psQTVZYk1OUWMtdmlocUFBQjRRRm12MjNlZXlOSEFKcTZ4aXp0dFRQT3E0djJJT0o2M1FuN3Eybl9EeVZ6Y1lsNzk5blQ3c2NUZFZwbGRyaHdPTWxn?oc=5",
+      "published": "2026-09-29T07:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
       "title": "New College Board Research: AP Teachers Push for Guardrails and Support as GenAI Reshapes the Classroom",
       "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/new-college-board-research-ap-teachers-push-guardrails-and-support-genai-reshapes-classroom",
-      "published": "2026-09-23T12:00:00.000Z"
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbkdCY09NSmlkcmlmX1lhSnN6STZzbmZyRHhQUUlNRkJHM0cwc3EtTmxvSkpYSHRmSzBZWlF0RGFoMklsb21uRFJkZkJPRFM2ejQyRktJM0tBbjRPQXdyVGI5OXg0cXB1TndIenA3eGhjYVQ1UkdxSWotR2RNTkVTWGFyMVZ5ZG9YQ1J3UUQ2MGttSjczZ0lqREgxaFo3a1Robk9PQVpFVUZrYnp0bkMzSjNyNGJKN0o4ZTBBSlJOMF9lbDA?oc=5",
+      "published": "2026-09-23T18:00:47.000Z"
     },
     {
       "category": "Financial Aid",
@@ -81,9 +67,23 @@
       "category": "College Admissions",
       "title": "College Board and U.S. Chamber of Commerce Foundation Convened Civics@Work Forum on Constitution Day",
       "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/college-board-and-us-chamber-commerce-foundation-convened-civicswork-forum-constitution-day",
-      "published": "2026-09-17T12:00:00.000Z"
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZzdtMnZxR0FRTGhRVzNoRmxXdmh6clFGd3VJaXQzQmV0Yl91cy1NZGtYbHJNdVQ3ZWlyS084SWszNkc2NmwtcjVacWZoSXhEbzJKUDVaZGxVLUh6QnpzYWxaVUNEUzIxZzRpQk5MNG12dl9nSVQyamZUZUdwUXMydVdLeERaRllyQnBMUU5oeUpWd1pONGRqTExMZ0tUdHBwRlgtTDNFMk1qWjN5bVVvMjhheXBMaEdIVnRqMndQaUFUZzQ?oc=5",
+      "published": "2026-09-17T07:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "Fit Pays Off: Strong College Match Linked to Higher On-Time Graduation, New Report Finds",
+      "source": "College Board",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTGVYN2ZzVGYtOUhMRC1VcTRrUTVBV1JiSVdXMGlwNVVYRnNUdzFKU3gzUGNvRUpaWm9oM1k1YVFxczVrT0Q3eXNjeXBUeEdvTnoyYVVkLTZKQ2xNcW96VzhvbmNrTjFqN2JNQkZWMElWd3NNeVFma3hqREl5ZmI1dHJ4dGNOQWstc0FXcWVYY09YNTE5aDE5RWYtbkl1cXVjRmtJSmlRR1oyNGJSUklZ?oc=5",
+      "published": "2026-09-15T07:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(GRANTS-26-08) Third and Final Pell Grant Administrative Cost Allowance Payments for 2024–25 Award Year",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-11/third-and-final-pell-grant-administrative-cost-allowance-payments-2024-25-award-year",
+      "published": "2026-09-11T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-12T15:34:50.676Z"
+  "updatedAt": "2026-10-13T00:45:56.232Z"
 }
