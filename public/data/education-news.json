@@ -2,10 +2,10 @@
   "items": [
     {
       "category": "Financial Aid",
-      "title": "(APP-26-14) Final 2027–28 FAFSA PDF Form, FAFSA Form for Incarcerated Applicants, and FAFSA Submission Summary",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-06/final-2027-28-fafsa-pdf-form-fafsa-form-incarcerated-applicants-and-fafsa-submission-summary",
-      "published": "2026-10-06T12:00:00.000Z"
+      "title": "SAVE Plan Borrowers: FAQs About Choosing a Different Repayment Plan",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5rX3NRQnRzTFRIQnNIVHlKaTIyWTlleUlLSGhDWkRvN253X25hNGF4OFlwdGlraUZWZU1iWGFnN3k4R2N0V3F4Znp0U1Nhdw?oc=5",
+      "published": "2026-10-13T19:47:11.000Z"
     },
     {
       "category": "College Admissions",
@@ -22,24 +22,10 @@
       "published": "2026-09-30T12:00:00.000Z"
     },
     {
-      "category": "Financial Aid",
-      "title": "(LOANS-26-08) FY 2023 Official National Student Loan Cohort Default Rate Briefing",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-30/fy-2023-official-national-student-loan-cohort-default-rate-briefing",
-      "published": "2026-09-30T12:00:00.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/sat-turns-100-nearly-2-million-students-class-2026-take-test",
-      "published": "2026-09-29T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(LOANS-26-07) Distribution of FY 2023 Official Cohort Default Rates and Appeal Timeline",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-29/distribution-fy-2023-official-cohort-default-rates-and-appeal-timeline",
       "published": "2026-09-29T12:00:00.000Z"
     },
     {
@@ -48,20 +34,6 @@
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/new-college-board-research-ap-teachers-push-guardrails-and-support-genai-reshapes-classroom",
       "published": "2026-09-23T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-58) Federal Perkins Loan Servicer Change – School Transition Information",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-perkins-loan-servicer-change-school-transition-information",
-      "published": "2026-09-22T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-57) Federal Student Aid Posts Updated Reports to FSA Data Center",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-student-aid-posts-updated-reports-fsa-data-center",
-      "published": "2026-09-22T12:00:00.000Z"
     },
     {
       "category": "College Admissions",
@@ -78,12 +50,40 @@
       "published": "2026-09-15T12:00:00.000Z"
     },
     {
+      "category": "Education & Careers",
+      "title": "Home : Occupational Outlook Handbook",
+      "source": "Bureau of Labor Statistics (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBTY3RBdmpieG8xd0Q3VVN2QmQwSlVHeFBWUTNkQWN0b3hDRjNNaFpPZmVfU2lfYWVYY01TYw?oc=5",
+      "published": "2026-08-27T07:00:00.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "Education pays",
+      "source": "Bureau of Labor Statistics (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB3R2tTa01JeklzWHBObU5BcWstemd1OE84OVZ1U2hhUVRuUzRBWklTbGxKTC0tb2l0Zlg4Z1phQ3RUNWNuWV9mWEVneVI5d2lzLVJCNkhkRUFMR2xhbFY5OHF4T2J4ejMwRXJCLWxzQTl0UWM?oc=5",
+      "published": "2026-08-27T07:00:00.000Z"
+    },
+    {
       "category": "Financial Aid",
-      "title": "(GRANTS-26-08) Third and Final Pell Grant Administrative Cost Allowance Payments for 2024–25 Award Year",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-11/third-and-final-pell-grant-administrative-cost-allowance-payments-2024-25-award-year",
-      "published": "2026-09-11T12:00:00.000Z"
+      "title": "Home Page",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAtYW9fSkwydlphZk12eFBqNzNvakhSSHFGNEZBYUZrUE5yMGg1dm9yTDI1d1JBRF9HTkVFakRwb3NaOTdm?oc=5",
+      "published": "2023-10-24T02:04:57.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "NSLDS",
+      "source": "National Student Loan Data System (NSLDS) (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1yOEt6djBiaTlYUnBvZjRTR1JPdm4yUktubDhFcGlPZmlZX0t3OWhCcGpEblJYVkxMT1lFMGhhUlpEakU?oc=5",
+      "published": "2022-07-25T14:31:09.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "Entrance Counseling",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4LXVpVG5QOFQ1ZEh5T0tBSDJIajFYanNWUDF5dFJfeC01R0xtamxCUklsZkFsNm9ZT3pLUmFlSkFKZlNielpPWVNPN01QWEUteXlmeg?oc=5",
+      "published": "2021-02-21T18:53:56.000Z"
     }
   ],
-  "updatedAt": "2026-10-15T04:47:16.890Z"
+  "updatedAt": "2026-10-15T11:36:13.853Z"
 }
