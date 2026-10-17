@@ -1,11 +1,11 @@
 {
   "items": [
     {
-      "category": "Education & Careers",
+      "category": "Financial Aid",
       "title": "(GENERAL-26-64) Availability of Workforce Pell Regulations Frequently Asked Questions",
-      "source": "FSA Partner Connect (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZ21ZaWV6TlVzUWhUUEVwX1B0cjJnR01JR3RqbktlZFk0em5Kd19qZlNJdHU0eEFfU3QycnFPb1Vla2dPY3g2WThRVzlrUUYtRWt5ZzhmRW1fUVJhWFBURkFNdG8wME51Q040eWlDUGczZnRIaWVyZDllWUlNV09jX1lIUnA1VXY2Q1BJUmFOOVZ0V09jQVFsQVlJTFNEWUVZTHV3aEU3TTBucWMwRXJaUnVTUGJ5MnRQLUZUNm5MeV9kaTlkdWVMZ2JDLWh4aTIzTHJXNFFzVW5iaTQzYlUyZzZWVXRJajFXRmc?oc=5",
-      "published": "2026-10-15T18:03:27.000Z"
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-15/availability-workforce-pell-regulations-frequently-asked-questions",
+      "published": "2026-10-15T12:00:00.000Z"
     },
     {
       "category": "Education & Careers",
@@ -16,10 +16,10 @@
     },
     {
       "category": "Financial Aid",
-      "title": "SAVE Plan Borrowers: FAQs About Choosing a Different Repayment Plan",
-      "source": "Federal Student Aid (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5rX3NRQnRzTFRIQnNIVHlKaTIyWTlleUlLSGhDWkRvN253X25hNGF4OFlwdGlraUZWZU1iWGFnN3k4R2N0V3F4Znp0U1Nhdw?oc=5",
-      "published": "2026-10-13T19:47:11.000Z"
+      "title": "(APP-26-14) Final 2027–28 FAFSA PDF Form, FAFSA Form for Incarcerated Applicants, and FAFSA Submission Summary",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-06/final-2027-28-fafsa-pdf-form-fafsa-form-incarcerated-applicants-and-fafsa-submission-summary",
+      "published": "2026-10-06T12:00:00.000Z"
     },
     {
       "category": "College Admissions",
@@ -36,10 +36,24 @@
       "published": "2026-09-30T12:00:00.000Z"
     },
     {
+      "category": "Financial Aid",
+      "title": "(LOANS-26-08) FY 2023 Official National Student Loan Cohort Default Rate Briefing",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-30/fy-2023-official-national-student-loan-cohort-default-rate-briefing",
+      "published": "2026-09-30T12:00:00.000Z"
+    },
+    {
       "category": "College Admissions",
       "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/sat-turns-100-nearly-2-million-students-class-2026-take-test",
+      "published": "2026-09-29T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(LOANS-26-07) Distribution of FY 2023 Official Cohort Default Rates and Appeal Timeline",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-29/distribution-fy-2023-official-cohort-default-rates-and-appeal-timeline",
       "published": "2026-09-29T12:00:00.000Z"
     },
     {
@@ -50,40 +64,26 @@
       "published": "2026-09-23T12:00:00.000Z"
     },
     {
+      "category": "Financial Aid",
+      "title": "(GENERAL-26-58) Federal Perkins Loan Servicer Change – School Transition Information",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-perkins-loan-servicer-change-school-transition-information",
+      "published": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(GENERAL-26-57) Federal Student Aid Posts Updated Reports to FSA Data Center",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-22/federal-student-aid-posts-updated-reports-fsa-data-center",
+      "published": "2026-09-22T12:00:00.000Z"
+    },
+    {
       "category": "College Admissions",
       "title": "College Board and U.S. Chamber of Commerce Foundation Convened Civics@Work Forum on Constitution Day",
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/college-board-and-us-chamber-commerce-foundation-convened-civicswork-forum-constitution-day",
       "published": "2026-09-17T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "Fit Pays Off: Strong College Match Linked to Higher On-Time Graduation, New Report Finds",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/fit-pays-strong-college-match-linked-higher-time-graduation-new-report-finds",
-      "published": "2026-09-15T12:00:00.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "Home : Occupational Outlook Handbook",
-      "source": "Bureau of Labor Statistics (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBTY3RBdmpieG8xd0Q3VVN2QmQwSlVHeFBWUTNkQWN0b3hDRjNNaFpPZmVfU2lfYWVYY01TYw?oc=5",
-      "published": "2026-08-27T07:00:00.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "Education pays",
-      "source": "Bureau of Labor Statistics (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB3R2tTa01JeklzWHBObU5BcWstemd1OE84OVZ1U2hhUVRuUzRBWklTbGxKTC0tb2l0Zlg4Z1phQ3RUNWNuWV9mWEVneVI5d2lzLVJCNkhkRUFMR2xhbFY5OHF4T2J4ejMwRXJCLWxzQTl0UWM?oc=5",
-      "published": "2026-08-27T07:00:00.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "Office for Civil Rights (OCR)",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqNDhiSmxNV0VUaU9CTmJmYWRHNVJUR3QzYWZsUjc3WHlvUkhKOThVOEQxczlFYlNsbVlhT0R2OUNkWktXMXJFR2tIaFRtNGs?oc=5",
-      "published": "2024-04-23T07:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-17T10:50:20.880Z"
+  "updatedAt": "2026-10-17T15:39:41.814Z"
 }
