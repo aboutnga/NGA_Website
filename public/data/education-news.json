@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "category": "Education & Careers",
+      "title": "Secretary McMahon Delivers “The Next 250: K-12 Education” Speech to 1,200 Students, Parents, and Educators in Utah",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbTdtMWVmNXh6MlBhNi1kVWpMZ0huM2NJUDZUMmowZmsydFBhRkxfQy1peWItVzhSa2Z0X0g2RnQySkd5VnVYeXhoS2VGY0FYbXRBZmdOMTNNc0xEa1E0eWZLNWVNRTkwaXR1VlhpbDFic2R2S1VyaVlOOUhUSjZNdTItbV9VZ2VtakU5OC1VV2I3dUZ0cTY4WVZIQ2JiVDdtenRXUVVwQmZNVHZwSmFpWnhVQ2dEQlVwdUZfdDY0UnZSTDlaU3M2ZlpOVDRjbGJm?oc=5",
+      "published": "2026-10-20T17:56:08.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "Governor Polis Takes Action To Create New Ways to Get Cybersecurity Careers For Students, Give AP Students New Opportunities to Serve in Colorado National Guard",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/governor-polis-takes-action-create-new-ways-get-cybersecurity-careers-students-give-ap-students-new",
+      "published": "2026-10-20T12:00:00.000Z"
+    },
+    {
       "category": "Financial Aid",
       "title": "(LOANS-26-09) HEAL Program Information – Maximum HEAL Program Interest Rates for Quarter Ending Dec. 31, 2026",
       "source": "Federal Student Aid",
@@ -69,21 +83,7 @@
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/new-college-board-research-ap-teachers-push-guardrails-and-support-genai-reshapes-classroom",
       "published": "2026-09-23T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "College Board and U.S. Chamber of Commerce Foundation Convened Civics@Work Forum on Constitution Day",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/college-board-and-us-chamber-commerce-foundation-convened-civicswork-forum-constitution-day",
-      "published": "2026-09-17T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "Fit Pays Off: Strong College Match Linked to Higher On-Time Graduation, New Report Finds",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/fit-pays-strong-college-match-linked-higher-time-graduation-new-report-finds",
-      "published": "2026-09-15T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-21T11:56:48.465Z"
+  "updatedAt": "2026-10-21T17:16:36.274Z"
 }
