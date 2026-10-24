@@ -50,13 +50,6 @@
       "published": "2026-10-15T12:00:00.000Z"
     },
     {
-      "category": "Education & Careers",
-      "title": "SAVE Plan Borrowers: FAQs About Choosing a Different Repayment Plan",
-      "source": "Federal Student Aid (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9felVnQ1Z6WlN6bFJXaDdyNURQQmVQelFONXk1cmU2NkdVYTJuN0M2RGt6aUEwcVhqTkZ5ZkJGeXZpRnl4X0tmNGJjR0Y0MHBDbU9DM2hn?oc=5",
-      "published": "2026-10-08T16:32:42.000Z"
-    },
-    {
       "category": "Financial Aid",
       "title": "(APP-26-14) Final 2027–28 FAFSA PDF Form, FAFSA Form for Incarcerated Applicants, and FAFSA Submission Summary",
       "source": "Federal Student Aid",
@@ -83,7 +76,14 @@
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-30/fy-2023-official-national-student-loan-cohort-default-rate-briefing",
       "published": "2026-09-30T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/sat-turns-100-nearly-2-million-students-class-2026-take-test",
+      "published": "2026-09-29T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-23T21:27:42.003Z"
+  "updatedAt": "2026-10-24T04:42:48.811Z"
 }
