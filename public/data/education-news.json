@@ -1,13 +1,6 @@
 {
   "items": [
     {
-      "category": "Education & Careers",
-      "title": "Free Application for Federal Student Aid (FAFSA®) Information To Be Verified for the 2027-2028 Award Year",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOd0tzNTNMRFd1Z3p3cjhXd29uamtObkprX19QYjQ5YWZ3SlcxcTlMMURfYTJ4dGxBeGZFZzA3bTlVa2k5VlVtOWNQSDUyenZzaGE2UWc2TFBYZ0R2WEZIdWlFcnRKc0ZkQkthdnM0YWN3NWpSd3dQY2swZlFsUVpFVm5jRjJaYnlMSkl0Mk1yRUVSaXczY1BCZnNKQmNvS0JyZE9nZVZsWmtyOUwtS1BIX0FUXzZaejdvT0FKTVdKV1RIZExOdGVZV09uT2J0WTVoUkdoRFNPZWFac3JValBHVWw5TG9pM2RxQ2o5X29YMXN5SWdzSlEwbHJ1b3ZFUQ?oc=5",
-      "published": "2026-10-23T15:01:25.000Z"
-    },
-    {
       "category": "Financial Aid",
       "title": "(GENERAL-26-67) December 2026 Federal Student Aid Training Conference – Registration Information",
       "source": "Federal Student Aid",
@@ -50,6 +43,13 @@
       "published": "2026-10-15T12:00:00.000Z"
     },
     {
+      "category": "Education & Careers",
+      "title": "SAVE Plan Borrowers: FAQs About Choosing a Different Repayment Plan",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9felVnQ1Z6WlN6bFJXaDdyNURQQmVQelFONXk1cmU2NkdVYTJuN0M2RGt6aUEwcVhqTkZ5ZkJGeXZpRnl4X0tmNGJjR0Y0MHBDbU9DM2hn?oc=5",
+      "published": "2026-10-08T16:32:42.000Z"
+    },
+    {
       "category": "Financial Aid",
       "title": "(APP-26-14) Final 2027–28 FAFSA PDF Form, FAFSA Form for Incarcerated Applicants, and FAFSA Submission Summary",
       "source": "Federal Student Aid",
@@ -85,5 +85,5 @@
       "published": "2026-09-29T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-27T05:11:39.100Z"
+  "updatedAt": "2026-10-27T12:19:21.528Z"
 }
