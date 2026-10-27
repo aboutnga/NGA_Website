@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "category": "Education & Careers",
+      "title": "U.S. Department of Education Opens Three Investigations into California Districts for Coercing Students to Answer \"Wheel of Privilege” Survey",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNdlRRTDM1Qy1pV3ZMVHE5UmpsZUI0SFpDbjU0a2lVUEpEZ1VVcnpLWEV5TDhrLUJuUFc0WFUxYWRGNVpjVGpDV0JUX2k4bHpqWVhZR2pPT3IyNDUzbV9ZRnBiZExWV2tKdXh1elN4aFZEWk5xOW1SM1Z3M3lraFJYWlhvbkZLdC12MjN4dHpXSk1BNXNGUExkRUMyZ2RjODRaSEVnMW5NX0JCc1JzcDA4VVZhZXR3RzdGYUN6UmlOYjFvbkdVNm1ZWW1Lbkx5V2ROQWhuejFSVlo4bC1PNlZ6T3hlZDV0eHZ3eDgtWXZzZXlvZ3ItcmpvVnRxTGhJQQ?oc=5",
+      "published": "2026-10-26T16:07:48.000Z"
+    },
+    {
       "category": "Financial Aid",
       "title": "(GENERAL-26-67) December 2026 Federal Student Aid Training Conference – Registration Information",
       "source": "Federal Student Aid",
@@ -76,14 +83,7 @@
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-30/fy-2023-official-national-student-loan-cohort-default-rate-briefing",
       "published": "2026-09-30T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/sat-turns-100-nearly-2-million-students-class-2026-take-test",
-      "published": "2026-09-29T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-27T12:19:21.528Z"
+  "updatedAt": "2026-10-27T22:18:53.774Z"
 }
