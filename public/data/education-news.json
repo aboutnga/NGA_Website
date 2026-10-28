@@ -2,6 +2,13 @@
   "items": [
     {
       "category": "Education & Careers",
+      "title": "U.S. Department of Education Celebrates 161 Outstanding Students as 2026 U.S. Presidential Scholars",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS1FoTVpCcHY2WURld0hnWVNOUDNQRzFpRjhzZ2dQSkx5bld3V19WX2V0eWtqOUtab2s5YkFSOTl3RHJzcmlORXAzU2FXbENIdFIwZ3pBTE9yTm9rS2NfdW1OVEpsaE9Ka2gxUzdJWXkwZHpkc2hlZUllNklObW9Wb05fZHZiUzA1Qnd2U041b1J0UnFJRzFLcXd5SHc0LUpOQjUxaTJndkc0T0g4dWprU3BGeHlJYXBIMUl4RnFSdHZKMXBrVHBvakZoV2g4QUxkOEE?oc=5",
+      "published": "2026-10-27T16:01:17.000Z"
+    },
+    {
+      "category": "Education & Careers",
       "title": "U.S. Department of Education Opens Three Investigations into California Districts for Coercing Students to Answer \"Wheel of Privilege” Survey",
       "source": "U.S. Department of Education (.gov)",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNdlRRTDM1Qy1pV3ZMVHE5UmpsZUI0SFpDbjU0a2lVUEpEZ1VVcnpLWEV5TDhrLUJuUFc0WFUxYWRGNVpjVGpDV0JUX2k4bHpqWVhZR2pPT3IyNDUzbV9ZRnBiZExWV2tKdXh1elN4aFZEWk5xOW1SM1Z3M3lraFJYWlhvbkZLdC12MjN4dHpXSk1BNXNGUExkRUMyZ2RjODRaSEVnMW5NX0JCc1JzcDA4VVZhZXR3RzdGYUN6UmlOYjFvbkdVNm1ZWW1Lbkx5V2ROQWhuejFSVlo4bC1PNlZ6T3hlZDV0eHZ3eDgtWXZzZXlvZ3ItcmpvVnRxTGhJQQ?oc=5",
@@ -18,15 +25,8 @@
       "category": "College Admissions",
       "title": "BigFuture Opens Scholarship Opportunities for the Class of 2029, Starting with a Vision for the Future",
       "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/bigfuture-opens-scholarship-opportunities-class-2029-starting-vision-future",
-      "published": "2026-10-21T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "Governor Polis Takes Action To Create New Ways to Get Cybersecurity Careers For Students, Give AP Students New Opportunities to Serve in Colorado National Guard",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/governor-polis-takes-action-create-new-ways-get-cybersecurity-careers-students-give-ap-students-new",
-      "published": "2026-10-20T12:00:00.000Z"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWGZvT2x6djRqVW04MGxMXzN2eXlLNUMxNEVTRGFXYU92SGgxTWNCVjlwV0FRek5HY3g5aW5yM0Nha1p1ZWxHUWVKRFFMRkJWV1g0QnNDOU1BN2UwLURtM1NYX3U5QTVJRGNoUnVQejdhNTZOTTF1NWpkek9pd3J6eWY1dWdjeTFhbWxGZ01MX1RYT29hMWVBN2xtZzVTeDUwM1ltSFVtaVZVdW1CS2c?oc=5",
+      "published": "2026-10-21T19:46:56.000Z"
     },
     {
       "category": "Financial Aid",
@@ -64,26 +64,26 @@
       "published": "2026-10-06T12:00:00.000Z"
     },
     {
-      "category": "College Admissions",
-      "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/bluebook-recognized-2026-gaady-award-accessibility",
-      "published": "2026-09-30T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "Gov. Braun Recognizes Rural Bloomfield School Where Indiana’s First-in-the-Nation Cybersecurity Pathway Comes to Life",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/gov-braun-recognizes-rural-bloomfield-school-where-indianas-first-nation-cybersecurity-pathway",
-      "published": "2026-09-30T12:00:00.000Z"
-    },
-    {
       "category": "Financial Aid",
       "title": "(LOANS-26-08) FY 2023 Official National Student Loan Cohort Default Rate Briefing",
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-09-30/fy-2023-official-national-student-loan-cohort-default-rate-briefing",
       "published": "2026-09-30T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
+      "source": "College Board",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTFZwWHVxU0w2a0RCOVp0U1IxcG9nc1lILXc5VmJlTWR0RXFpQm9pVG5DWW81cVlOSFE0M0Y3R1NsNTJUV3psQTVZYk1OUWMtdmlocUFBQjRRRm12MjNlZXlOSEFKcTZ4aXp0dFRQT3E0djJJT0o2M1FuN3Eybl9EeVZ6Y1lsNzk5blQ3c2NUZFZwbGRyaHdPTWxn?oc=5",
+      "published": "2026-09-29T07:00:00.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "Home : Occupational Outlook Handbook",
+      "source": "Bureau of Labor Statistics (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBTY3RBdmpieG8xd0Q3VVN2QmQwSlVHeFBWUTNkQWN0b3hDRjNNaFpPZmVfU2lfYWVYY01TYw?oc=5",
+      "published": "2026-08-27T07:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-10-27T22:18:53.774Z"
+  "updatedAt": "2026-10-28T05:48:47.897Z"
 }
