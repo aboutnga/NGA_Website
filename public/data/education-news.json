@@ -1,13 +1,6 @@
 {
   "items": [
     {
-      "category": "Financial Aid",
-      "title": "(CB-26-17) FISAP Edit Corrections and Federal Perkins Loan Program Cash on Hand Updates Due Dec. 15, 2026",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-30/fisap-edit-corrections-and-federal-perkins-loan-program-cash-hand-updates-due-dec-15-2026",
-      "published": "2026-10-30T12:00:00.000Z"
-    },
-    {
       "category": "Education & Careers",
       "title": "Fact Sheet: Trump Administration Finalizes New Rule Delivering Historic Reforms to American Higher Education Accreditation The f",
       "source": "U.S. Department of Education (.gov)",
@@ -20,13 +13,6 @@
       "source": "U.S. Department of Education (.gov)",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYXU3eTBudHc4MHZsRGs0MURYamNxY1NyR0hqVXc0M2JZQjBJa0pjRXdFX3J4R1gyVjdBR0JLcWdMZlBSQkZXVmtfWE5KcEdjZTJhRTBTOXhFX0c1T2FtUGF2SXF6TndjUV9EUDk5Uk9HZnVrdlZxVlZETUo2aVAxX1N0SlJkYnJyN25mU1dLZXNhT2NoMFd2YXcyVktDVEZFQ0Y4Qkw4SXNpVlVZVnBOWnVqTkRJVTZkcFNfdkpoSVJVbDN4Qng0dWpWd0U1aVBreDRLUTlRcm1SQUYxUXhiNVlB?oc=5",
       "published": "2026-10-29T13:42:17.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-67) December 2026 Federal Student Aid Training Conference – Registration Information (Updated Oct. 28, 2026)",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-22/december-2026-federal-student-aid-training-conference-registration-information-updated-oct-28-2026",
-      "published": "2026-10-22T12:00:00.000Z"
     },
     {
       "category": "College Admissions",
@@ -43,34 +29,6 @@
       "published": "2026-10-20T12:00:00.000Z"
     },
     {
-      "category": "Financial Aid",
-      "title": "(LOANS-26-09) HEAL Program Information – Maximum HEAL Program Interest Rates for Quarter Ending Dec. 31, 2026",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-19/heal-program-information-maximum-heal-program-interest-rates-quarter-ending-dec-31-2026",
-      "published": "2026-10-19T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(EDESUITE-26-07) New Service Release Available for EDExpress for Windows 2026–27 to Update Direct Loan Award Calculations and Resolve Software Issues",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-19/new-service-release-available-edexpress-windows-2026-27-update-direct-loan-award-calculations-and-resolve-software-issues",
-      "published": "2026-10-19T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-64) Availability of Workforce Pell Regulations Frequently Asked Questions",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-15/availability-workforce-pell-regulations-frequently-asked-questions",
-      "published": "2026-10-15T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(APP-26-14) Final 2027–28 FAFSA PDF Form, FAFSA Form for Incarcerated Applicants, and FAFSA Submission Summary",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-06/final-2027-28-fafsa-pdf-form-fafsa-form-incarcerated-applicants-and-fafsa-submission-summary",
-      "published": "2026-10-06T12:00:00.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
       "source": "College Board",
@@ -83,7 +41,49 @@
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/gov-braun-recognizes-rural-bloomfield-school-where-indianas-first-nation-cybersecurity-pathway",
       "published": "2026-09-30T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/sat-turns-100-nearly-2-million-students-class-2026-take-test",
+      "published": "2026-09-29T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "New College Board Research: AP Teachers Push for Guardrails and Support as GenAI Reshapes the Classroom",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/new-college-board-research-ap-teachers-push-guardrails-and-support-genai-reshapes-classroom",
+      "published": "2026-09-23T12:00:00.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "Home : Occupational Outlook Handbook",
+      "source": "Bureau of Labor Statistics (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBTY3RBdmpieG8xd0Q3VVN2QmQwSlVHeFBWUTNkQWN0b3hDRjNNaFpPZmVfU2lfYWVYY01TYw?oc=5",
+      "published": "2026-08-27T07:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "Agreements",
+      "source": "Nelnet (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TRF9MOGVsZWJsSVo0d3RNMzNsenEyNDVHTUhYblEzY1NfdXpWNEo3VWRJNW9jMTBqYUxoV0NoUzlKV0pYTVlyY0I3cUZhTGswZ3pxVDd5eW9XX0Vs?oc=5",
+      "published": "2026-03-19T11:14:36.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "Repayment Calculator",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1STERlNmdiVTYyUXpQR0tTbVQzZGVOOS15aVktb2hfanJCUDNXRVB5Y1U5cUVtSHpXRkRRc1lEekhNNl9WUWlFRVFkanpja1NWS1BCMVAzQjgwYlUtbEE?oc=5",
+      "published": "2024-11-20T00:12:59.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "Nelnet",
+      "source": "Nelnet (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1lZGFWdnpKZlpSYW0yMUx1SnZFd2hKSkpFTlBXd0R2Y1Vxak0wWU9laC1GZkJQcG4zbjZkRFZucjZJbkZK?oc=5",
+      "published": "2024-03-15T02:33:46.000Z"
     }
   ],
-  "updatedAt": "2026-11-01T06:14:30.896Z"
+  "updatedAt": "2026-11-01T13:35:47.477Z"
 }
