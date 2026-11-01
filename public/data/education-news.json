@@ -65,17 +65,17 @@
     },
     {
       "category": "Financial Aid",
+      "title": "form do you need?",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tcXJISEp6QmRabGpENXdOY1lsMjNSSk1YLXc2TkNfbFBGSG9GZS16cGd4cTVoZWk2U25xV2dUbjRWbnR0dnQ0T1EtSzEtSjFnY3dQMW9nVGo?oc=5",
+      "published": "2026-04-27T17:52:33.000Z"
+    },
+    {
+      "category": "Financial Aid",
       "title": "Agreements",
       "source": "Nelnet (.gov)",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TRF9MOGVsZWJsSVo0d3RNMzNsenEyNDVHTUhYblEzY1NfdXpWNEo3VWRJNW9jMTBqYUxoV0NoUzlKV0pYTVlyY0I3cUZhTGswZ3pxVDd5eW9XX0Vs?oc=5",
       "published": "2026-03-19T11:14:36.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "Repayment Calculator",
-      "source": "Federal Student Aid (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1STERlNmdiVTYyUXpQR0tTbVQzZGVOOS15aVktb2hfanJCUDNXRVB5Y1U5cUVtSHpXRkRRc1lEekhNNl9WUWlFRVFkanpja1NWS1BCMVAzQjgwYlUtbEE?oc=5",
-      "published": "2024-11-20T00:12:59.000Z"
     },
     {
       "category": "Financial Aid",
@@ -85,5 +85,5 @@
       "published": "2024-03-15T02:33:46.000Z"
     }
   ],
-  "updatedAt": "2026-11-01T13:35:47.477Z"
+  "updatedAt": "2026-11-01T22:06:12.867Z"
 }
