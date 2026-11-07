@@ -1,17 +1,17 @@
 {
   "items": [
     {
-      "category": "Education & Careers",
-      "title": "(GENERAL-26-69) Update to Federal Student Aid “Sender” Email Addresses",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOS0wT0dFcllNTnZfUl9KLVRPbGtZWWhrZ2F1YWQ3QmpNaFVMS2M4aDlZMERrekctRV95QlgxRjVMQkhZZ2tqNDVDc1A0eTBobEF4ZndtWWZobW01UDZFYlRFd0JkeE54dWdlQ0xndUtleFktNXZ4T2J3amNHNUpIUXV0ZDdqWmNzRF9mb1NLRGJpTmtmRGpKWHRQdHFnLWk1dzZxTWZJY253Z1U2bGdDQ2c3NWFZNTU2bnpFVUdiQTJCSFJIUTdFaTZ6M21VWHZjekZR?oc=5",
-      "published": "2026-11-05T12:47:17.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "Average Sticker Prices at Public Colleges Rise Less than Inflation; Grant Aid Brings Average Net Tuition at Public 4-Year Colleges Below $2,000",
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/average-sticker-prices-public-colleges-rise-less-inflation-grant-aid-brings-average-net-tuition",
+      "published": "2026-11-05T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(GENERAL-26-69) Update to Federal Student Aid “Sender” Email Addresses",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-11-05/update-federal-student-aid-sender-email-addresses",
       "published": "2026-11-05T12:00:00.000Z"
     },
     {
@@ -20,6 +20,20 @@
       "source": "U.S. Department of Education (.gov)",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb05tMElGRnJqeFFQWHdTVUFfNlM1cjZTMzM5eVJydGxhZVlhYVpOdEZJSUh5bHYzUksyVUxFV0FWNzFaeE9jd3ZKVWFZOGhCbnE1WnRScmlZTVFrUHJ1ZWNGMmtOc3V0by1EVjFXTVAwOWViME5oMzM2ZFhWTHk1RXhWVWZZUGY3TWNLZ0NUazNCVnJWemdTT3l4RmR6VEs4UHlqN0Q3bXFpYW1LaVJINm1reENIZDB4OEd2dkNR?oc=5",
       "published": "2026-11-04T14:11:14.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(CB-26-17) FISAP Edit Corrections and Federal Perkins Loan Program Cash on Hand Updates Due Dec. 15, 2026",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-30/fisap-edit-corrections-and-federal-perkins-loan-program-cash-hand-updates-due-dec-15-2026",
+      "published": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(GENERAL-26-67) December 2026 Federal Student Aid Training Conference – Registration Information (Updated Oct. 28, 2026)",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-22/december-2026-federal-student-aid-training-conference-registration-information-updated-oct-28-2026",
+      "published": "2026-10-22T12:00:00.000Z"
     },
     {
       "category": "College Admissions",
@@ -36,6 +50,27 @@
       "published": "2026-10-20T12:00:00.000Z"
     },
     {
+      "category": "Financial Aid",
+      "title": "(LOANS-26-09) HEAL Program Information – Maximum HEAL Program Interest Rates for Quarter Ending Dec. 31, 2026",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-19/heal-program-information-maximum-heal-program-interest-rates-quarter-ending-dec-31-2026",
+      "published": "2026-10-19T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(EDESUITE-26-07) New Service Release Available for EDExpress for Windows 2026–27 to Update Direct Loan Award Calculations and Resolve Software Issues",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-19/new-service-release-available-edexpress-windows-2026-27-update-direct-loan-award-calculations-and-resolve-software-issues",
+      "published": "2026-10-19T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(GENERAL-26-64) Availability of Workforce Pell Regulations Frequently Asked Questions",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-15/availability-workforce-pell-regulations-frequently-asked-questions",
+      "published": "2026-10-15T12:00:00.000Z"
+    },
+    {
       "category": "College Admissions",
       "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
       "source": "College Board",
@@ -48,42 +83,7 @@
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/gov-braun-recognizes-rural-bloomfield-school-where-indianas-first-nation-cybersecurity-pathway",
       "published": "2026-09-30T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "As the SAT Turns 100, Nearly 2 Million Students in the Class of 2026 Take the Test",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/sat-turns-100-nearly-2-million-students-class-2026-take-test",
-      "published": "2026-09-29T12:00:00.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "Home : Occupational Outlook Handbook",
-      "source": "Bureau of Labor Statistics (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBTY3RBdmpieG8xd0Q3VVN2QmQwSlVHeFBWUTNkQWN0b3hDRjNNaFpPZmVfU2lfYWVYY01TYw?oc=5",
-      "published": "2026-08-27T07:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "Agreements",
-      "source": "Nelnet (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TRF9MOGVsZWJsSVo0d3RNMzNsenEyNDVHTUhYblEzY1NfdXpWNEo3VWRJNW9jMTBqYUxoV0NoUzlKV0pYTVlyY0I3cUZhTGswZ3pxVDd5eW9XX0Vs?oc=5",
-      "published": "2026-03-19T11:14:36.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "Nelnet",
-      "source": "Federal Student Aid (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1lZGFWdnpKZlpSYW0yMUx1SnZFd2hKSkpFTlBXd0R2Y1Vxak0wWU9laC1GZkJQcG4zbjZkRFZucjZJbkZK?oc=5",
-      "published": "2024-03-15T02:33:46.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "Home Page",
-      "source": "Federal Student Aid (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAtYW9fSkwydlphZk12eFBqNzNvakhSSHFGNEZBYUZrUE5yMGg1dm9yTDI1d1JBRF9HTkVFakRwb3NaOTdm?oc=5",
-      "published": "2023-10-24T02:04:57.000Z"
     }
   ],
-  "updatedAt": "2026-11-07T06:05:34.355Z"
+  "updatedAt": "2026-11-07T13:09:54.467Z"
 }
