@@ -15,41 +15,6 @@
       "published": "2026-11-09T18:00:33.000Z"
     },
     {
-      "category": "Education & Careers",
-      "title": "(GENERAL-26-70) SAIG Users - Upgrade to EDconnect 8.6.1 and TDClient 3.5.0 Software by Dec. 7, 2026",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUU9ZczlrdWNsSXlDMFpzN2ppbFYtbFBSVWY3amFURXg3Zk9tYU94U0pqYnY4UGRLQ3d2c21rcXlJQjFSbmV3eng0c1NrbEY4VGlPejV1MFEzOWJUVExUbHhBMmhpaEFFMHI0Ymdaak9KYnJwYldGbzhMOUZlcGQzb0Rvc1luOEJZZllMX3pqMVh0WHhPTF9ZMHlMY3VoY1pZNl9BeEo4QnNsMldLWnRTRFR6N0lkVFRYZElkbmpoSTNHQlVKOTNoTW1PbEFjSFhjbEdCQUVpaU5VTktRa0JVR1g5ekJLZW5nTkZUN2hR?oc=5",
-      "published": "2026-11-06T18:38:05.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "Average Sticker Prices at Public Colleges Rise Less than Inflation; Grant Aid Brings Average Net Tuition at Public 4-Year Colleges Below $2,000",
-      "source": "College Board",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOXZOV3dqM192OGhrX1dINnZGV3FyN1lmTXAtOWw5c3g5LV9YRXFYM015NFNoNmppR0RWejdiMFZEdDl1NG90NFlqVW9sY2doSzNZeTVaR1h6LVowc3BnRVgxQmRnYThtX2FwMUNjLXRsQVJDMkg1NHFzZS1KYm5DYktoT096UG1GbXRESk1XQ0FWa0JZbEJDcFUzREd2cjdaNG8wMlhDR1dmVktMOE5mQlhUWFBoUGR0bWJ0bzhYSWtldGRXTzRmTw?oc=5",
-      "published": "2026-11-05T17:06:02.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-69) Update to Federal Student Aid “Sender” Email Addresses",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-11-05/update-federal-student-aid-sender-email-addresses",
-      "published": "2026-11-05T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(CB-26-17) FISAP Edit Corrections and Federal Perkins Loan Program Cash on Hand Updates Due Dec. 15, 2026",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-30/fisap-edit-corrections-and-federal-perkins-loan-program-cash-hand-updates-due-dec-15-2026",
-      "published": "2026-10-30T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-67) December 2026 Federal Student Aid Training Conference – Registration Information (Updated Oct. 28, 2026)",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-22/december-2026-federal-student-aid-training-conference-registration-information-updated-oct-28-2026",
-      "published": "2026-10-22T12:00:00.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "BigFuture Opens Scholarship Opportunities for the Class of 2029, Starting with a Vision for the Future",
       "source": "College Board",
@@ -57,33 +22,68 @@
       "published": "2026-10-21T07:00:00.000Z"
     },
     {
-      "category": "Financial Aid",
-      "title": "(LOANS-26-09) HEAL Program Information – Maximum HEAL Program Interest Rates for Quarter Ending Dec. 31, 2026",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-19/heal-program-information-maximum-heal-program-interest-rates-quarter-ending-dec-31-2026",
-      "published": "2026-10-19T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(EDESUITE-26-07) New Service Release Available for EDExpress for Windows 2026–27 to Update Direct Loan Award Calculations and Resolve Software Issues",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-19/new-service-release-available-edexpress-windows-2026-27-update-direct-loan-award-calculations-and-resolve-software-issues",
-      "published": "2026-10-19T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-64) Availability of Workforce Pell Regulations Frequently Asked Questions",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-15/availability-workforce-pell-regulations-frequently-asked-questions",
-      "published": "2026-10-15T12:00:00.000Z"
-    },
-    {
       "category": "Education & Careers",
       "title": "Home : Occupational Outlook Handbook",
       "source": "Bureau of Labor Statistics (.gov)",
       "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBTY3RBdmpieG8xd0Q3VVN2QmQwSlVHeFBWUTNkQWN0b3hDRjNNaFpPZmVfU2lfYWVYY01TYw?oc=5",
       "published": "2026-08-27T07:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "form do you need?",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tcXJISEp6QmRabGpENXdOY1lsMjNSSk1YLXc2TkNfbFBGSG9GZS16cGd4cTVoZWk2U25xV2dUbjRWbnR0dnQ0T1EtSzEtSjFnY3dQMW9nVGo?oc=5",
+      "published": "2026-04-27T17:52:33.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "Agreements",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TRF9MOGVsZWJsSVo0d3RNMzNsenEyNDVHTUhYblEzY1NfdXpWNEo3VWRJNW9jMTBqYUxoV0NoUzlKV0pYTVlyY0I3cUZhTGswZ3pxVDd5eW9XX0Vs?oc=5",
+      "published": "2026-03-19T11:14:36.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "New College Board Research: Faculty Express Near-Universal Concern That Student AI Use Undermines Original Writing and Critical Thinking",
+      "source": "College Board",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNnNPaXFMdWVIWHcwTi02LWpMUlFvOXozTGRXVzZFTF9YMGxJTDRqc2Q2OEc0dnU0NlJ3cVZlaG1ocEVhb3dIUXduenpGZ2YtUzRia1pSdVpyOFE1VHlrSGtSUk55U3ZWVHJVS0N0bklrZnBjUUlYVXNwTmpGUU1vSXRuZlJiZUF1ZGJzanUtby1Wd0dQbHd5SDFDUEdKaFNmc3FmVmd6elpJOUE0cDhhLUxMM2w1MTFwS0NvOXY5OUc0Nzg?oc=5",
+      "published": "2026-02-25T08:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "SAT Participation in the Class of 2025 Surpasses 2 Million Test Takers for the First Time Since 2020",
+      "source": "College Board",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRVVVTmNpN3dpdTlTREZJcHJaT21CVEh0VVpYclFCU2tLZ3VDcEpWRDIzdE5HQ2dCOGhWVUl5TkJfUEZVa3IxM2xBeV84ZUdSQnZpTF9YaGpZWTBSLVpwb183c0hjS09BaGZIRjFGRng4YmlwVUN4a2hhRm4wcnJDZXBESzc4TVVJYUU5SnVFTE1jQWk0ZzdUREc5WU01OVN3b0hKRGJxSzVFbF9IMC1j?oc=5",
+      "published": "2025-09-30T07:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "Nelnet",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1lZGFWdnpKZlpSYW0yMUx1SnZFd2hKSkpFTlBXd0R2Y1Vxak0wWU9laC1GZkJQcG4zbjZkRFZucjZJbkZK?oc=5",
+      "published": "2024-03-15T02:33:46.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "Home Page",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFAtYW9fSkwydlphZk12eFBqNzNvakhSSHFGNEZBYUZrUE5yMGg1dm9yTDI1d1JBRF9HTkVFakRwb3NaOTdm?oc=5",
+      "published": "2023-10-24T02:04:57.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "Repaying Student Loans 101",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OZDB2T25famZFQnVZc1hLZTMyUU8taS1fQ2p0RjNKc3pid1Y4UGlmY1FOWnYxZUpFN3FuNDRtVjRGRTFIMUxYVi0xeHJzNnNiVDdvSDVIRGxCZE9IX2htSTF0aUpydm5Hc1dWYlQyRThuQQ?oc=5",
+      "published": "2023-08-02T16:56:46.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "Direct Consolidation Loan Application",
+      "source": "Federal Student Aid (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02N2tDUUpPSnlzTFBGY2tGR3RpNmZScjJRWXRseWFyOTAzYUdKVThJckdrcVdiYUdCdkFPZjlISkJDbEplMWxPekY4Q1VJMkdISldxazBudjVjZFE?oc=5",
+      "published": "2023-07-31T12:00:45.000Z"
     }
   ],
-  "updatedAt": "2026-11-10T07:25:03.067Z"
+  "updatedAt": "2026-11-10T19:47:30.785Z"
 }
