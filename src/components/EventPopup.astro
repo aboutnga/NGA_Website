@@ -1,41 +1,44 @@
 ---
 const registrationOpen = true;
-const registrationUrl = 'https://forms.gle/nxWsG5QkuNAUvbGx5';
+const registrationUrl = 'https://forms.gle/WdEZU98ES4GYfRiu8';
 ---
 
 {registrationOpen && (
   <dialog
     class="event-popup"
-    id="meet-a-mentor-popup"
+    id="memory-gift-popup"
     aria-labelledby="event-popup-title"
-    data-expires="2026-10-11T00:00:00-07:00"
+    data-expires="2026-11-22T00:00:00-08:00"
   >
     <div class="event-popup__panel">
       <button class="event-popup__close" type="button" aria-label="Close event announcement">×</button>
       <div class="event-popup__flyer">
         <img
-          src="/images/events/meet-a-mentor-11.jpg"
-          alt="Meet a Mentor number 11: Careers and opportunities at the Federal Bureau of Investigation, October 10, 2026 from 10 AM to 2 PM at KAFLA Hall"
+          src="/images/events/gift-of-memories.jpg"
+          alt="A Gift of Memories life story video project, November 21, 2026 from 10 AM to 2 PM at KAFLA Hall"
         />
       </div>
       <div class="event-popup__details">
-        <span class="eyebrow">Upcoming Event</span>
-        <h2 id="event-popup-title">Meet a Mentor #11</h2>
-        <p class="event-popup__topic">Careers &amp; Opportunities at the FBI</p>
+        <span class="eyebrow">Life Story Video Project · 인생기록 영상 프로젝트</span>
+        <h2 id="event-popup-title" lang="ko">기억의 선물</h2>
+        <p class="event-popup__topic">A Gift of Memories</p>
         <dl>
-          <div><dt>Date · 날짜</dt><dd>Saturday, October 10, 2026</dd></div>
+          <div><dt>Date · 날짜</dt><dd>Saturday, November 21, 2026</dd></div>
           <div><dt>Time · 시간</dt><dd>10:00 AM–2:00 PM</dd></div>
-          <div><dt>Mentor · 멘토</dt><dd>FBI Special Agent,<br class="event-popup__mobile-break"/> <span class="event-popup__agency">Los Angeles Division</span></dd></div>
+          <div><dt>Location · 장소</dt><dd><strong>KAFLA Hall · LA 한인회</strong><br/>981 S. Western Ave. #100, Los Angeles, CA 90006</dd></div>
+          <div class="event-popup__materials">
+            <dt>What to Bring · 참가 준비물</dt>
+            <dd><span lang="ko">사진 20개 이상, 영상 자료, 상장·신문 기사 등 기타 기록</span></dd>
+          </div>
           <div class="event-popup__parking">
             <dt>Free All-Day Parking · 무료 종일 주차</dt>
             <dd>
               <strong>KTP · Koreatown Plaza</strong><br/>
               928 S. Western Ave., Los Angeles, CA 90006
-              <span class="event-popup__parking-note">Bring your parking ticket for validation.<br/><span lang="ko">주차권 꼭 가지고 오셔야 합니다.</span></span>
             </dd>
           </div>
         </dl>
-        <p class="event-popup__note">Parents and students must attend together.<br/><span lang="ko">부모와 학생이 반드시 함께 참석해야 합니다.</span></p>
+        <p class="event-popup__note"><strong>Free · 무료</strong> · Advance registration required · 사전 등록 필수<br/><span lang="ko">선착순 100분께 제공됩니다.</span></p>
         {registrationUrl ? (
           <a class="event-popup__register" href={registrationUrl} target="_blank" rel="noreferrer">
             Register · 등록하기
@@ -52,7 +55,7 @@ const registrationUrl = 'https://forms.gle/nxWsG5QkuNAUvbGx5';
 )}
 
 <script>
-  const popup = document.querySelector<HTMLDialogElement>('#meet-a-mentor-popup');
+  const popup = document.querySelector<HTMLDialogElement>('#memory-gift-popup');
 
   if (popup) {
     const preview = new URLSearchParams(window.location.search).get('event-popup') === 'preview';
@@ -90,12 +93,11 @@ const registrationUrl = 'https://forms.gle/nxWsG5QkuNAUvbGx5';
   .event-popup__details dl div{padding-bottom:7px;border-bottom:1px solid var(--line)}
   .event-popup__details dt{color:var(--navy);font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
   .event-popup__details dd{margin:2px 0 0;font-size:.97rem;line-height:1.45}
-  .event-popup__mobile-break{display:none}
-  .event-popup__agency{white-space:nowrap}
+  .event-popup__details .event-popup__materials{padding:9px 11px;border:1px solid #d8e3c0;border-radius:5px;background:#f4f8e9}
+  .event-popup__details .event-popup__materials dt{color:#53780c}
   .event-popup__details .event-popup__parking{margin-top:2px;padding:10px 12px;border:2px solid #f2bf42;border-radius:5px;background:#fff4c7}
   .event-popup__details .event-popup__parking dt{color:#8d283d;font-size:.9rem;letter-spacing:.025em}
   .event-popup__details .event-popup__parking dd{color:var(--navy)}
-  .event-popup__parking-note{display:block;margin-top:6px;color:#8d283d;font-size:.82rem;font-weight:700;line-height:1.35}
   .event-popup__note{margin:0 0 14px;color:var(--muted);font-size:.9rem;line-height:1.45}
   .event-popup__register{display:flex;min-height:52px;align-items:center;justify-content:center;padding:13px 20px;color:#fff;background:var(--burgundy);border-radius:4px;text-decoration:none;font-size:1.05rem;font-weight:700}
   .event-popup__register:hover{background:#84273a}
@@ -109,7 +111,6 @@ const registrationUrl = 'https://forms.gle/nxWsG5QkuNAUvbGx5';
     .event-popup__flyer img{max-height:none}
     .event-popup__details{padding:30px 24px 26px}
     .event-popup__details h2{font-size:2rem}
-    .event-popup__mobile-break{display:block}
     .event-popup__close{position:fixed;top:max(12px,env(safe-area-inset-top));right:calc(3vw + 12px)}
   }
 </style>
