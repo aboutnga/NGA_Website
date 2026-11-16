@@ -1,13 +1,6 @@
 {
   "items": [
     {
-      "category": "Education & Careers",
-      "title": "(GENERAL-26-71) December 2026 FSA Training Conference – Agenda Now Available",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRG9qajVhakF6SmtBWU1Wa09JclBicUktajczRHdfMVhJOUFldkZxdXdjeVd6bllyVWZIWXZkdldQN095VlMzckgteURvcjM0WVF0TXkxVEZrdXhFa0VvNkEzal81N0FvLWhIcnVGQWthSXd6NHVybGpKV0h0MnpMZkdDbGhfMVFJTGJ4N3JPbFd4VmcxUWkzMGpOSVJ0dm5pR2JlRExJZ0tEY0VUS0lHSGVlSHVqV1BrUmxuUnBPOUtMVnQyNnFXY0t4eWVtVjVFZ1R5NkJEMDhVakI5RmZF?oc=5",
-      "published": "2026-11-10T13:31:19.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "College Board Welcomes Incoming Leadership and New Board of Trustees Members",
       "source": "College Board",
@@ -83,7 +76,14 @@
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-15/availability-workforce-pell-regulations-frequently-asked-questions",
       "published": "2026-10-15T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/bluebook-recognized-2026-gaady-award-accessibility",
+      "published": "2026-09-30T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-11-15T18:54:35.597Z"
+  "updatedAt": "2026-11-16T06:38:46.811Z"
 }
