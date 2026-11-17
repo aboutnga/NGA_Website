@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "category": "Education & Careers",
+      "title": "U.S. Department of Education Probes Philadelphia School District After its Failure to Uphold Previous Agreement to Protect Jewish Students",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNWm5HbGZuSDRpU0ctSXJ0cm00RjliZUMya004S214N1NpNEczMzdkdnFCd0R6VW8tQ0xoQ0k4c0lsT2JxZ29weHQ4cFJHdUtfUFRXb1ZMeHFzSFQ5eWp3eFNhMXBpdDhhdEl6SmppdEo0NTFMMWVacFExX0otYVY2QTlsUmQ0Z1kxQThsOW5KMDhCNWJhMlYwUTJEUGhNOXpVUW01YXlOSTFWNWVWVnFBRzRfa0l1Ym1ZT3k4cWZoaVczNFJlaDd0RlpVSzg0RnIwVHRrWVBIM201dlFTM1k0Zm1sdTZVU3pEVk1vcVpxQnFtdGtwR1EyRHlMZjJHa1Fibks3Tg?oc=5",
+      "published": "2026-11-16T21:00:17.000Z"
+    },
+    {
       "category": "College Admissions",
       "title": "College Board Welcomes Incoming Leadership and New Board of Trustees Members",
       "source": "College Board",
@@ -13,13 +20,6 @@
       "source": "College Board",
       "url": "https://newsroom.collegeboard.org/average-sticker-prices-public-colleges-rise-less-inflation-grant-aid-brings-average-net-tuition",
       "published": "2026-11-05T12:00:00.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "U.S. Department of Education Finalizes Rule to Reform, Strengthen, and Modernize Higher Education Accreditation",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcTlZQmRnZGRkY2FfUkZleDZzTHM4Z1ltSTNfWngxRU9Jc3VjOXdENHctWUM1SFF1Z0VKYVh2Y1Z2UmplMnNlOGpaVGZWeFl3Zmh4dURuaUVtdF8xZTNYOHhNZGtEczBLaXdCZWgxLWU3ZERUSnIxbzd3Ul9IbkJzZjZ3Q1lkd3ltSEtfelB1TTFtSDNjcjdMZkZRaU51blF6TkJNLTBuZ29raHhHQ051cHFiWHBiTjBiR0tUZzdNci13MU5Cd2FPa3g4Vlo4NFE0VTBSdWZWSFI5Vy1odnR3Ng?oc=5",
-      "published": "2026-10-29T07:00:00.000Z"
     },
     {
       "category": "College Admissions",
@@ -57,6 +57,13 @@
       "published": "2026-08-27T07:00:00.000Z"
     },
     {
+      "category": "Education & Careers",
+      "title": "(GENERAL-26-49) Guidance on FVT/GE Data Reporting, STATS Early Implementation, and Next Steps for Publication (Updated Nov. 16, 2026)",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOTHh5Yzlob01mME0yOHBkY2EwUHdfNkhwajhmNFRURkFsSTY2UmFHQ0REWFZjLUhQS1pTejVSVjNCUG5NNlEwZGREUDhicXdpYnljX29iTUlrcEtxazVXTU1haFg3U2dJZnlfbFA0UktPU21TME5oUkJzSVJPODBQUEhQVjZ5aXBjVFJTVWJjeEFJWUxoQnVhMzVoU0JqSXhnanRPSy0tNVhScmg0YVhDRlVYNEVwakg1cmJ4NVNVYlN6YTU5Z2FfdS1tb1NSQ2Qyd3M2a3VVVGpiMzFrb0F6MnRidElvMUo1ZU5TRzBSRFEzSE9QS1o4QnJTcnhCVEZJcTRpalRyWVVVWld2SzdTc3MwY1Z4UWUwcV91MQ?oc=5",
+      "published": "2026-08-11T07:00:00.000Z"
+    },
+    {
       "category": "Financial Aid",
       "title": "form do you need?",
       "source": "Federal Student Aid (.gov)",
@@ -71,19 +78,12 @@
       "published": "2026-03-19T11:14:36.000Z"
     },
     {
-      "category": "Education & Careers",
-      "title": "College Accreditation",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWUt3My1DZUw1RVlmT092TGVtR2hkUDM0OWk4M01jckFNSU5iM1RaY1ZRcFNFLW9pVTFQWmRvWTMtVGdHTUJLVko0MXRUNHpYNGRBV3Q4c1ZMV1dUbm1vRDVtMjZHLUtoaE1PbXllSDZ0LS1Lcy1wc2pDM0hIZy1pWTFUUjJFckhDS25WVUhzTGVrUQ?oc=5",
-      "published": "2024-09-19T02:02:11.000Z"
-    },
-    {
       "category": "Financial Aid",
       "title": "Nelnet",
-      "source": "Federal Student Aid (.gov)",
+      "source": "Nelnet (.gov)",
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1lZGFWdnpKZlpSYW0yMUx1SnZFd2hKSkpFTlBXd0R2Y1Vxak0wWU9laC1GZkJQcG4zbjZkRFZucjZJbkZK?oc=5",
       "published": "2024-03-15T02:33:46.000Z"
     }
   ],
-  "updatedAt": "2026-11-17T07:59:47.931Z"
+  "updatedAt": "2026-11-17T20:59:08.946Z"
 }
