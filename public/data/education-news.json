@@ -2,10 +2,31 @@
   "items": [
     {
       "category": "Education & Careers",
+      "title": "U.S. Departments of Education and State Urge Colleges and Universities to Protect America’s Research Enterprise",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMlhKblJJZDVOeHBhQ2ZaZE9HbVlGOVIwXzFfMjJ5a0ZnVEdaekJLaFlMbHMtVzhxRXZLMWg5SzBVQmRzNlY1TTUyZnBiSkJKNEFpVnZOb2lQMTROR0l1Y2JaLWg5aVg2QkY4SngzanpvZ2I2SUd2SExZeXk2SGZERjlIQkhvVUNWZGQ5a0xfZzhvdWlHLS1tYkNzTFZ6QkJtbEZ5eE02U0JDcnZRMjlwUHdLeU5MSVh0YkxpOGF5c1puTXE5VDZXUldiZk5XS3hOVEZvTlhqVEpmTXNzcl8zdzdONA?oc=5",
+      "published": "2026-11-17T14:07:55.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(APP-26-16) Upcoming FAFSA Fraud Reprocessing Events",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-11-17/upcoming-fafsa-fraud-reprocessing-events",
+      "published": "2026-11-17T12:00:00.000Z"
+    },
+    {
+      "category": "Education & Careers",
       "title": "U.S. Department of Education Probes Philadelphia School District After its Failure to Uphold Previous Agreement to Protect Jewish Students",
       "source": "U.S. Department of Education (.gov)",
       "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNWm5HbGZuSDRpU0ctSXJ0cm00RjliZUMya004S214N1NpNEczMzdkdnFCd0R6VW8tQ0xoQ0k4c0lsT2JxZ29weHQ4cFJHdUtfUFRXb1ZMeHFzSFQ5eWp3eFNhMXBpdDhhdEl6SmppdEo0NTFMMWVacFExX0otYVY2QTlsUmQ0Z1kxQThsOW5KMDhCNWJhMlYwUTJEUGhNOXpVUW01YXlOSTFWNWVWVnFBRzRfa0l1Ym1ZT3k4cWZoaVczNFJlaDd0RlpVSzg0RnIwVHRrWVBIM201dlFTM1k0Zm1sdTZVU3pEVk1vcVpxQnFtdGtwR1EyRHlMZjJHa1Fibks3Tg?oc=5",
       "published": "2026-11-16T21:00:17.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "U.S. Department of Education Opens Investigations into Racial Discrimination in Teacher Preparation Programs",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNekJxZGFyOHRsU01VM1RZcW5IX0ZFcmQxZW9jYTg1NE9xUDJkQjgxTGZzc01lUW9DM1BmVkU0VThpTFdSTVVreFJ2eTFJNlN3MWd1Qmc0ZkpsaGJVT3ZreHFvbkw5bjV1VGFEeTNOYVF0VWVxLWJWUFVWcmJWd2JLTEFGZkVUcWNWczNRU2pmS1YycEF6dF9DYkI3RWJkNzRna3dZVHlIX0UwMDVaNHhmTUlZTUNqVmpYeVlzQ25hNDBHWkpKX0g4dnAzbDh1N3d2RFdYczBOMklYdw?oc=5",
+      "published": "2026-11-16T14:42:04.000Z"
     },
     {
       "category": "College Admissions",
@@ -22,6 +43,27 @@
       "published": "2026-11-05T12:00:00.000Z"
     },
     {
+      "category": "Financial Aid",
+      "title": "(GENERAL-26-69) Update to Federal Student Aid “Sender” Email Addresses",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-11-05/update-federal-student-aid-sender-email-addresses",
+      "published": "2026-11-05T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(CB-26-17) FISAP Edit Corrections and Federal Perkins Loan Program Cash on Hand Updates Due Dec. 15, 2026",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-30/fisap-edit-corrections-and-federal-perkins-loan-program-cash-hand-updates-due-dec-15-2026",
+      "published": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(GENERAL-26-67) December 2026 Federal Student Aid Training Conference – Registration Information (Updated Oct. 28, 2026)",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-22/december-2026-federal-student-aid-training-conference-registration-information-updated-oct-28-2026",
+      "published": "2026-10-22T12:00:00.000Z"
+    },
+    {
       "category": "College Admissions",
       "title": "BigFuture Opens Scholarship Opportunities for the Class of 2029, Starting with a Vision for the Future",
       "source": "College Board",
@@ -36,54 +78,12 @@
       "published": "2026-10-20T12:00:00.000Z"
     },
     {
-      "category": "College Admissions",
-      "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/bluebook-recognized-2026-gaady-award-accessibility",
-      "published": "2026-09-30T12:00:00.000Z"
-    },
-    {
-      "category": "College Admissions",
-      "title": "Gov. Braun Recognizes Rural Bloomfield School Where Indiana’s First-in-the-Nation Cybersecurity Pathway Comes to Life",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/gov-braun-recognizes-rural-bloomfield-school-where-indianas-first-nation-cybersecurity-pathway",
-      "published": "2026-09-30T12:00:00.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "Home : Occupational Outlook Handbook",
-      "source": "Bureau of Labor Statistics (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBTY3RBdmpieG8xd0Q3VVN2QmQwSlVHeFBWUTNkQWN0b3hDRjNNaFpPZmVfU2lfYWVYY01TYw?oc=5",
-      "published": "2026-08-27T07:00:00.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "(GENERAL-26-49) Guidance on FVT/GE Data Reporting, STATS Early Implementation, and Next Steps for Publication (Updated Nov. 16, 2026)",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOTHh5Yzlob01mME0yOHBkY2EwUHdfNkhwajhmNFRURkFsSTY2UmFHQ0REWFZjLUhQS1pTejVSVjNCUG5NNlEwZGREUDhicXdpYnljX29iTUlrcEtxazVXTU1haFg3U2dJZnlfbFA0UktPU21TME5oUkJzSVJPODBQUEhQVjZ5aXBjVFJTVWJjeEFJWUxoQnVhMzVoU0JqSXhnanRPSy0tNVhScmg0YVhDRlVYNEVwakg1cmJ4NVNVYlN6YTU5Z2FfdS1tb1NSQ2Qyd3M2a3VVVGpiMzFrb0F6MnRidElvMUo1ZU5TRzBSRFEzSE9QS1o4QnJTcnhCVEZJcTRpalRyWVVVWld2SzdTc3MwY1Z4UWUwcV91MQ?oc=5",
-      "published": "2026-08-11T07:00:00.000Z"
-    },
-    {
       "category": "Financial Aid",
-      "title": "form do you need?",
-      "source": "Federal Student Aid (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tcXJISEp6QmRabGpENXdOY1lsMjNSSk1YLXc2TkNfbFBGSG9GZS16cGd4cTVoZWk2U25xV2dUbjRWbnR0dnQ0T1EtSzEtSjFnY3dQMW9nVGo?oc=5",
-      "published": "2026-04-27T17:52:33.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "Agreements",
-      "source": "Nelnet (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TRF9MOGVsZWJsSVo0d3RNMzNsenEyNDVHTUhYblEzY1NfdXpWNEo3VWRJNW9jMTBqYUxoV0NoUzlKV0pYTVlyY0I3cUZhTGswZ3pxVDd5eW9XX0Vs?oc=5",
-      "published": "2026-03-19T11:14:36.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "Nelnet",
-      "source": "Nelnet (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1lZGFWdnpKZlpSYW0yMUx1SnZFd2hKSkpFTlBXd0R2Y1Vxak0wWU9laC1GZkJQcG4zbjZkRFZucjZJbkZK?oc=5",
-      "published": "2024-03-15T02:33:46.000Z"
+      "title": "(LOANS-26-09) HEAL Program Information – Maximum HEAL Program Interest Rates for Quarter Ending Dec. 31, 2026",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-19/heal-program-information-maximum-heal-program-interest-rates-quarter-ending-dec-31-2026",
+      "published": "2026-10-19T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-11-18T07:36:22.342Z"
+  "updatedAt": "2026-11-18T20:37:34.246Z"
 }
