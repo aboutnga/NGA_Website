@@ -1,32 +1,11 @@
 {
   "items": [
     {
-      "category": "Education & Careers",
-      "title": "U.S. Departments of Education and State Urge Colleges and Universities to Protect America’s Research Enterprise",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMlhKblJJZDVOeHBhQ2ZaZE9HbVlGOVIwXzFfMjJ5a0ZnVEdaekJLaFlMbHMtVzhxRXZLMWg5SzBVQmRzNlY1TTUyZnBiSkJKNEFpVnZOb2lQMTROR0l1Y2JaLWg5aVg2QkY4SngzanpvZ2I2SUd2SExZeXk2SGZERjlIQkhvVUNWZGQ5a0xfZzhvdWlHLS1tYkNzTFZ6QkJtbEZ5eE02U0JDcnZRMjlwUHdLeU5MSVh0YkxpOGF5c1puTXE5VDZXUldiZk5XS3hOVEZvTlhqVEpmTXNzcl8zdzdONA?oc=5",
-      "published": "2026-11-17T14:07:55.000Z"
-    },
-    {
       "category": "Financial Aid",
       "title": "(APP-26-16) Upcoming FAFSA Fraud Reprocessing Events",
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-11-17/upcoming-fafsa-fraud-reprocessing-events",
       "published": "2026-11-17T12:00:00.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "U.S. Department of Education Probes Philadelphia School District After its Failure to Uphold Previous Agreement to Protect Jewish Students",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNWm5HbGZuSDRpU0ctSXJ0cm00RjliZUMya004S214N1NpNEczMzdkdnFCd0R6VW8tQ0xoQ0k4c0lsT2JxZ29weHQ4cFJHdUtfUFRXb1ZMeHFzSFQ5eWp3eFNhMXBpdDhhdEl6SmppdEo0NTFMMWVacFExX0otYVY2QTlsUmQ0Z1kxQThsOW5KMDhCNWJhMlYwUTJEUGhNOXpVUW01YXlOSTFWNWVWVnFBRzRfa0l1Ym1ZT3k4cWZoaVczNFJlaDd0RlpVSzg0RnIwVHRrWVBIM201dlFTM1k0Zm1sdTZVU3pEVk1vcVpxQnFtdGtwR1EyRHlMZjJHa1Fibks3Tg?oc=5",
-      "published": "2026-11-16T21:00:17.000Z"
-    },
-    {
-      "category": "Education & Careers",
-      "title": "U.S. Department of Education Opens Investigations into Racial Discrimination in Teacher Preparation Programs",
-      "source": "U.S. Department of Education (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNekJxZGFyOHRsU01VM1RZcW5IX0ZFcmQxZW9jYTg1NE9xUDJkQjgxTGZzc01lUW9DM1BmVkU0VThpTFdSTVVreFJ2eTFJNlN3MWd1Qmc0ZkpsaGJVT3ZreHFvbkw5bjV1VGFEeTNOYVF0VWVxLWJWUFVWcmJWd2JLTEFGZkVUcWNWczNRU2pmS1YycEF6dF9DYkI3RWJkNzRna3dZVHlIX0UwMDVaNHhmTUlZTUNqVmpYeVlzQ25hNDBHWkpKX0g4dnAzbDh1N3d2RFdYczBOMklYdw?oc=5",
-      "published": "2026-11-16T14:42:04.000Z"
     },
     {
       "category": "College Admissions",
@@ -83,7 +62,28 @@
       "source": "Federal Student Aid",
       "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-19/heal-program-information-maximum-heal-program-interest-rates-quarter-ending-dec-31-2026",
       "published": "2026-10-19T12:00:00.000Z"
+    },
+    {
+      "category": "Financial Aid",
+      "title": "(EDESUITE-26-07) New Service Release Available for EDExpress for Windows 2026–27 to Update Direct Loan Award Calculations and Resolve Software Issues",
+      "source": "Federal Student Aid",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-19/new-service-release-available-edexpress-windows-2026-27-update-direct-loan-award-calculations-and-resolve-software-issues",
+      "published": "2026-10-19T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/bluebook-recognized-2026-gaady-award-accessibility",
+      "published": "2026-09-30T12:00:00.000Z"
+    },
+    {
+      "category": "College Admissions",
+      "title": "Gov. Braun Recognizes Rural Bloomfield School Where Indiana’s First-in-the-Nation Cybersecurity Pathway Comes to Life",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/gov-braun-recognizes-rural-bloomfield-school-where-indianas-first-nation-cybersecurity-pathway",
+      "published": "2026-09-30T12:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-11-18T20:37:34.246Z"
+  "updatedAt": "2026-11-19T07:31:13.817Z"
 }
