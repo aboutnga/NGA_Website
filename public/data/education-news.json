@@ -1,11 +1,46 @@
 {
   "items": [
     {
-      "category": "Financial Aid",
+      "category": "College Admissions",
+      "title": "New Report Demonstrates Urgent Need to Expand High School Level Cybersecurity Courses",
+      "source": "College Board",
+      "url": "https://newsroom.collegeboard.org/new-report-demonstrates-urgent-need-expand-high-school-level-cybersecurity-courses",
+      "published": "2026-11-19T12:00:00.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "U.S. Department of Education Probes School Districts Across the Nation for Secret “Gender Support Plans” and Facilitating Children’s “Gender Transitions” Without Parents’",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQNEZoSk1aZE5kbjN2eW1LSkNhaG9OQm5neVk2WUctckUwa0M4TVpSRU5Ea1A2TEpTcjdxM1JRdGZWU1duaTJaanpkVzJPbEdxMlFuSXhrRUVTUHFid1JNSlJ6QTduZ0lrSkluNTMySjlSeHNCYzlvd3BZTGdPNC1SWFpnUHZhcWhCU1ljZkJQRUhOUE9pMDdpakhmVDd4LWI2Y083Q3MzaEp0TWtNUWFFU0JOQzFkeVlwYTM5RC1acXJhQV8wNkc3Z2RmZEZPLS1haWY5NXp4RlA5WGdRbFhmYkRWX0UyN0hValdOSXJ5SDByVnJFM01GeDZvTm80eXQ5QWV4Q3JGZGhfd0R3OWktNWR2SDg4cFk1Z1E?oc=5",
+      "published": "2026-11-18T20:00:46.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "U.S. Departments of Education and State Urge Colleges and Universities to Protect America’s Research Enterprise",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMlhKblJJZDVOeHBhQ2ZaZE9HbVlGOVIwXzFfMjJ5a0ZnVEdaekJLaFlMbHMtVzhxRXZLMWg5SzBVQmRzNlY1TTUyZnBiSkJKNEFpVnZOb2lQMTROR0l1Y2JaLWg5aVg2QkY4SngzanpvZ2I2SUd2SExZeXk2SGZERjlIQkhvVUNWZGQ5a0xfZzhvdWlHLS1tYkNzTFZ6QkJtbEZ5eE02U0JDcnZRMjlwUHdLeU5MSVh0YkxpOGF5c1puTXE5VDZXUldiZk5XS3hOVEZvTlhqVEpmTXNzcl8zdzdONA?oc=5",
+      "published": "2026-11-17T14:07:55.000Z"
+    },
+    {
+      "category": "Education & Careers",
       "title": "(APP-26-16) Upcoming FAFSA Fraud Reprocessing Events",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-11-17/upcoming-fafsa-fraud-reprocessing-events",
-      "published": "2026-11-17T12:00:00.000Z"
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbU1PUmo1S1o0dnRqdUNSUGhsMVc4TGlOS19jb1l5UWwzdUQwQmFBZDN6Sm9BcEEwdlF2d1ppcko0UU1oQzljZUNfb2xuNWlucThtRTNGdG40TGdnMTFNUGtpUnBmUU9qU2IySUplSXExWEhaRlJFcmpZcXJuVFgyQ19rTGJCRm9vVGRVM3pnb0lBZjA3OE1pZm5TbkRuRDRtSlZiY2JLSno3cjlYQ1ducWZpeFdiOUt4c0xGWTFwYVFlc3A5OUFN?oc=5",
+      "published": "2026-11-17T12:36:57.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "U.S. Department of Education Probes Philadelphia School District After its Failure to Uphold Previous Agreement to Protect Jewish Students",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNWm5HbGZuSDRpU0ctSXJ0cm00RjliZUMya004S214N1NpNEczMzdkdnFCd0R6VW8tQ0xoQ0k4c0lsT2JxZ29weHQ4cFJHdUtfUFRXb1ZMeHFzSFQ5eWp3eFNhMXBpdDhhdEl6SmppdEo0NTFMMWVacFExX0otYVY2QTlsUmQ0Z1kxQThsOW5KMDhCNWJhMlYwUTJEUGhNOXpVUW01YXlOSTFWNWVWVnFBRzRfa0l1Ym1ZT3k4cWZoaVczNFJlaDd0RlpVSzg0RnIwVHRrWVBIM201dlFTM1k0Zm1sdTZVU3pEVk1vcVpxQnFtdGtwR1EyRHlMZjJHa1Fibks3Tg?oc=5",
+      "published": "2026-11-16T21:00:17.000Z"
+    },
+    {
+      "category": "Education & Careers",
+      "title": "U.S. Department of Education Opens Investigations into Racial Discrimination in Teacher Preparation Programs",
+      "source": "U.S. Department of Education (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNekJxZGFyOHRsU01VM1RZcW5IX0ZFcmQxZW9jYTg1NE9xUDJkQjgxTGZzc01lUW9DM1BmVkU0VThpTFdSTVVreFJ2eTFJNlN3MWd1Qmc0ZkpsaGJVT3ZreHFvbkw5bjV1VGFEeTNOYVF0VWVxLWJWUFVWcmJWd2JLTEFGZkVUcWNWczNRU2pmS1YycEF6dF9DYkI3RWJkNzRna3dZVHlIX0UwMDVaNHhmTUlZTUNqVmpYeVlzQ25hNDBHWkpKX0g4dnAzbDh1N3d2RFdYczBOMklYdw?oc=5",
+      "published": "2026-11-16T14:42:04.000Z"
     },
     {
       "category": "College Admissions",
@@ -22,27 +57,6 @@
       "published": "2026-11-05T12:00:00.000Z"
     },
     {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-69) Update to Federal Student Aid “Sender” Email Addresses",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-11-05/update-federal-student-aid-sender-email-addresses",
-      "published": "2026-11-05T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(CB-26-17) FISAP Edit Corrections and Federal Perkins Loan Program Cash on Hand Updates Due Dec. 15, 2026",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-30/fisap-edit-corrections-and-federal-perkins-loan-program-cash-hand-updates-due-dec-15-2026",
-      "published": "2026-10-30T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(GENERAL-26-67) December 2026 Federal Student Aid Training Conference – Registration Information (Updated Oct. 28, 2026)",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-22/december-2026-federal-student-aid-training-conference-registration-information-updated-oct-28-2026",
-      "published": "2026-10-22T12:00:00.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "BigFuture Opens Scholarship Opportunities for the Class of 2029, Starting with a Vision for the Future",
       "source": "College Board",
@@ -57,20 +71,6 @@
       "published": "2026-10-20T12:00:00.000Z"
     },
     {
-      "category": "Financial Aid",
-      "title": "(LOANS-26-09) HEAL Program Information – Maximum HEAL Program Interest Rates for Quarter Ending Dec. 31, 2026",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-19/heal-program-information-maximum-heal-program-interest-rates-quarter-ending-dec-31-2026",
-      "published": "2026-10-19T12:00:00.000Z"
-    },
-    {
-      "category": "Financial Aid",
-      "title": "(EDESUITE-26-07) New Service Release Available for EDExpress for Windows 2026–27 to Update Direct Loan Award Calculations and Resolve Software Issues",
-      "source": "Federal Student Aid",
-      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-10-19/new-service-release-available-edexpress-windows-2026-27-update-direct-loan-award-calculations-and-resolve-software-issues",
-      "published": "2026-10-19T12:00:00.000Z"
-    },
-    {
       "category": "College Admissions",
       "title": "Bluebook Recognized with 2026 Gaady Award for Accessibility",
       "source": "College Board",
@@ -78,12 +78,12 @@
       "published": "2026-09-30T12:00:00.000Z"
     },
     {
-      "category": "College Admissions",
-      "title": "Gov. Braun Recognizes Rural Bloomfield School Where Indiana’s First-in-the-Nation Cybersecurity Pathway Comes to Life",
-      "source": "College Board",
-      "url": "https://newsroom.collegeboard.org/gov-braun-recognizes-rural-bloomfield-school-where-indianas-first-nation-cybersecurity-pathway",
-      "published": "2026-09-30T12:00:00.000Z"
+      "category": "Education & Careers",
+      "title": "Home : Occupational Outlook Handbook",
+      "source": "Bureau of Labor Statistics (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBTY3RBdmpieG8xd0Q3VVN2QmQwSlVHeFBWUTNkQWN0b3hDRjNNaFpPZmVfU2lfYWVYY01TYw?oc=5",
+      "published": "2026-08-27T07:00:00.000Z"
     }
   ],
-  "updatedAt": "2026-11-19T07:31:13.817Z"
+  "updatedAt": "2026-11-19T20:42:35.354Z"
 }
